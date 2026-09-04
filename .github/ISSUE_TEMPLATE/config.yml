@@ -1,0 +1,15 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OSIRIS JSON specification or schema
+    url: https://github.com/osirisjson/osiris/issues/new/choose
+    about: >-
+      Changes to the specification or JSON Schema itself belong in the
+      osirisjson/osiris repository, not here.
+  - name: Documentation
+    url: https://docs.osirisjson.org/osiris-consumers/getting-started/
+    about: Read the consumer usage guides before opening an issue.
+  - name: Report a security vulnerability
+    url: https://github.com/osirisjson/osiris-consumers/blob/main/SECURITY.md
+    about: >-
+      Do not open a public issue for vulnerabilities.
+      Use a private security advisory or email instead, per SECURITY.md.

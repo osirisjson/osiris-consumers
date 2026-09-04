@@ -1,0 +1,94 @@
+name: Bug report
+description: Report incorrect, missing, or invalid output from OSIRIS JSON Consumers.
+title: "bug: <short summary>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please search open and
+        closed issues first to avoid duplicates; see also
+        [CONTRIBUTING.md](https://github.com/osirisjson/osiris-consumers/blob/main/CONTRIBUTING.md).
+
+        Do not paste real production data (IPs, hostnames, credentials,
+        serial numbers). Use the documentation and reserved ranges from
+        RFC 5737/RFC 3849 instead.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      description: Which part of the module is affected?
+      options:
+        - cmd/osirisjson-consumer (CLI)
+        - consumer/ (experimental facade)
+        - internal/validation (toolbox receipt handoff)
+        - internal/document (loss-aware view)
+        - internal/graph (generic graph/index)
+        - internal/report + internal/render/markdown
+        - internal/topology + internal/render/drawio
+        - internal/artifact (atomic output)
+        - Other/not sure
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Consumer version
+      description: Output of `osirisjson-consumer version`.
+      placeholder: "dev (commit unknown)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Command line invocation and flags used. Use sanitized test data,
+        not real infrastructure details.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sanitized OSIRIS JSON input excerpt (optional)
+      description: >-
+        The smallest input around the wrong or missing output, with
+        sensitive values redacted or replaced with test data.
+      render: json
+
+  - type: input
+    id: go-version
+    attributes:
+      label: Go version (if building from source)
+      placeholder: "go version go1.25.0 linux/amd64"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
+        - label: >-
+            This report does not include real production data (e.g. IPs,
+            hostnames, credentials, serial numbers)
+          required: true

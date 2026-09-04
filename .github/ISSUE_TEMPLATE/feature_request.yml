@@ -1,0 +1,52 @@
+name: Feature request
+description: Propose a change or a new capability for OSIRIS JSON Consumers.
+title: "feat: <short summary>"
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Spec or schema changes belong in the
+        [osirisjson/osiris](https://github.com/osirisjson/osiris) repo.
+        This form is for the OSIRIS JSON Consumers only.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: >-
+        What are you trying to do, and why does the current
+        behavior not cover it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: The smallest change that would address it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: >-
+            This keeps generic processing the default; it does not make
+            a provider-less document a degraded case.
+          required: true
+        - label: >-
+            This does not add a compliance verdict, maturity grade,
+            or score.
+          required: true
+        - label: >-
+            This fits the OSIRIS JSON roadmap scope or is explicitly
+            a post-roadmap item.
+          required: true

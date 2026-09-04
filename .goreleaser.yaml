@@ -1,0 +1,171 @@
+version: 2
+
+project_name: osiris-consumers
+
+before:
+  hooks:
+    - go mod tidy
+    - go test ./...
+
+builds:
+  - id: osirisjson-consumer
+    main: ./cmd/osirisjson-consumer
+    binary: osirisjson-consumer
+    env:
+      - CGO_ENABLED=0
+    ldflags:
+      - -s -w -X main.version={{.Version}} -X main.commit={{.ShortCommit}}
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+    ignore:
+      - goos: windows
+        goarch: arm64
+
+archives:
+  - id: bundle
+    builds:
+      - osirisjson-consumer
+    name_template: "osiris-consumers_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format_overrides:
+      - goos: windows
+        formats: [zip]
+    files:
+      - CHANGELOG.md
+      - INSTALL.md
+      - LICENSE
+
+nfpms:
+  - id: linux-packages
+    package_name: osiris-consumers
+    builds:
+      - osirisjson-consumer
+    vendor: osirisjson.org
+    homepage: https://docs.osirisjson.org/osiris-consumers/getting-started/
+    maintainer: OSIRIS JSON <community@osirisjson.org>
+    description: Turn a validated OSIRIS JSON document into a deterministic, vendor-neutral Markdown report and a draw.io topology diagram.
+    license: Apache-2.0
+    formats:
+      - deb
+      - rpm
+    contents:
+      - src: ./CHANGELOG.md
+        dst: /usr/share/doc/osiris-consumers/CHANGELOG.md
+
+brews:
+  - name: osirisjson-consumer
+    directory: Formula
+    repository:
+      owner: osirisjson
+      name: homebrew-osiris-consumers
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    homepage: "https://docs.osirisjson.org/osiris-consumers/getting-started/"
+    description: "Turn a validated OSIRIS JSON document into a deterministic, vendor-neutral Markdown report and a draw.io topology diagram."
+    license: "Apache-2.0"
+    install: |
+      bin.install "osirisjson-consumer"
+    test: |
+      system "#{bin}/osirisjson-consumer", "version"
+
+scoops:
+  - name: osirisjson-consumer
+    ids:
+      - bundle
+    repository:
+      owner: osirisjson
+      name: scoop-osiris-consumers
+      token: "{{ .Env.SCOOP_BUCKET_TOKEN }}"
+    directory: bucket
+    homepage: "https://docs.osirisjson.org/osiris-consumers/getting-started/"
+    description: "Turn a validated OSIRIS JSON document into a deterministic, vendor-neutral Markdown report and a draw.io topology diagram."
+    license: Apache-2.0
+    skip_upload: auto
+
+winget:
+  - name: osirisjson-consumer
+    ids:
+      - bundle
+    publisher: osirisjson
+    publisher_url: "https://docs.osirisjson.org/osiris-consumers/getting-started/"
+    publisher_support_url: "https://github.com/osirisjson/osiris-consumers/issues"
+    package_identifier: osirisjson.osirisjson-consumer
+    short_description: "Consume validated OSIRIS JSON into a vendor-neutral Markdown report and a draw.io topology."
+    description: "Turn a validated OSIRIS JSON document into a deterministic, vendor-neutral Markdown report and a draw.io topology diagram."
+    license: Apache-2.0
+    license_url: "https://github.com/osirisjson/osiris-consumers/blob/main/LICENSE"
+    homepage: "https://docs.osirisjson.org/osiris-consumers/getting-started/"
+    tags:
+      - infrastructure
+      - infrastructure audit
+      - inventory
+      - topology
+      - documentation
+      - drawio
+      - markdown
+      - json
+      - tools
+    skip_upload: auto
+    repository:
+      owner: osirisjson
+      name: winget-pkgs
+      branch: "osirisjson-consumer-{{ .Version }}"
+      token: "{{ .Env.WINGET_GITHUB_TOKEN }}"
+      pull_request:
+        enabled: true
+        base:
+          owner: microsoft
+          name: winget-pkgs
+          branch: master
+
+checksum:
+  name_template: "osiris-consumers_{{ .Version }}_checksums.txt"
+  algorithm: sha256
+
+release:
+  github:
+    owner: osirisjson
+    name: osiris-consumers
+  draft: false
+  prerelease: auto
+  name_template: "v{{ .Version }}"
+  header: |
+    OSIRIS JSON Consumers release **v{{ .Version }}**.
+    Turn a validated OSIRIS JSON document into a deterministic, vendor-neutral Markdown report and a draw.io topology diagram. See the [OSIRIS JSON documentation](https://docs.osirisjson.org/osiris-consumers/getting-started/).
+
+    ### Install
+
+    **macOS** (Homebrew):
+    ```bash
+    brew tap osirisjson/osiris-consumers
+    brew install osirisjson-consumer
+    ```
+
+    **Linux** - install via the `.deb` or `.rpm` packages listed below, or extract the archive.
+
+    **Windows** (winget):
+    ```powershell
+    winget install osirisjson.osirisjson-consumer
+    ```
+
+    **Windows** (Scoop):
+    ```powershell
+    scoop bucket add osiris-consumers https://github.com/osirisjson/scoop-osiris-consumers
+    scoop install osirisjson-consumer
+    ```
+
+    **Windows** (manual) - download the `.zip` archive below, extract and run `osirisjson-consumer.exe`.
+    SmartScreen may show "Windows protected your PC" (not yet signed) - click **More info** -> **Run anyway**,
+    or right-click the .exe -> Properties -> check **Unblock** -> OK.
+
+    **Any platform (Go required):**
+    ```bash
+    go install go.osirisjson.org/consumers/cmd/osirisjson-consumer@latest
+    ```
+
+    Full installation instructions: [INSTALL.md](https://github.com/osirisjson/osiris-consumers/blob/main/INSTALL.md)
+
+    See [CHANGELOG.md](CHANGELOG.md) for the full list of changes.
