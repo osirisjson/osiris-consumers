@@ -1,0 +1,26 @@
+{
+  "$schema": "https://osirisjson.org/schema/v1.0/osiris.schema.json",
+  "version": "1.0.0",
+  "metadata": {
+    "timestamp": "2026-02-01T09:00:00Z",
+    "generator": { "name": "osirisjson-producer-azure", "version": "0.5.1" }
+  },
+  "topology": {
+    "resources": [
+      {
+        "id": "azure::/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/LAB-RG/providers/Microsoft.Network/virtualNetworks/lab-vnt",
+        "type": "network.vpc",
+        "name": "lab-vnt",
+        "provider": {
+          "name": "azure",
+          "namespace": "Microsoft.Network",
+          "native_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/LAB-RG/providers/Microsoft.Network/virtualNetworks/lab-vnt",
+          "account": "00000000-0000-0000-0000-000000000000",
+          "type": "Microsoft.Network/virtualNetworks",
+          "subscription": "00000000-0000-0000-0000-000000000000"
+        },
+        "status": "unknown"
+      }
+    ]
+  }
+}

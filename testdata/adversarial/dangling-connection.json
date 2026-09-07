@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "metadata": { "timestamp": "2026-02-01T09:00:00Z" },
+  "topology": {
+    "resources": [
+      { "id": "real", "type": "compute.host", "provider": { "name": "custom", "namespace": "osiris.example.lab" } }
+    ],
+    "connections": [
+      { "id": "c-ghost", "type": "network", "source": "real", "target": "ghost" }
+    ]
+  }
+}
