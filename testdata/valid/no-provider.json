@@ -1,0 +1,51 @@
+{
+  "$schema": "https://osirisjson.org/schema/v1.0/osiris.schema.json",
+  "version": "1.0.0",
+  "metadata": {
+    "timestamp": "2026-02-01T09:00:00Z",
+    "generator": {
+      "name": "manual",
+      "version": "1.0.0"
+    },
+    "scope": {
+      "name": "generic lab",
+      "purpose": "audit",
+      "sites": ["lab-00"]
+    }
+  },
+  "topology": {
+    "resources": [
+      {
+        "id": "node-a",
+        "type": "compute.host",
+        "name": "LAB-HOST-01",
+        "provider": { "name": "custom", "namespace": "osiris.example.lab" },
+        "status": "active"
+      },
+      {
+        "id": "node-b",
+        "type": "network.switch",
+        "name": "LAB-SW-01",
+        "provider": { "name": "custom", "namespace": "osiris.example.lab" },
+        "status": "active"
+      }
+    ],
+    "connections": [
+      {
+        "id": "link-ab",
+        "type": "network",
+        "source": "node-a",
+        "target": "node-b",
+        "direction": "bidirectional"
+      }
+    ],
+    "groups": [
+      {
+        "id": "grp-rack",
+        "type": "logical.location.rack",
+        "name": "Rack 1",
+        "members": ["node-a", "node-b"]
+      }
+    ]
+  }
+}

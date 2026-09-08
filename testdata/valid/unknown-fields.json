@@ -1,0 +1,51 @@
+{
+  "$schema": "https://osirisjson.org/schema/v1.0/osiris.schema.json",
+  "version": "1.4.0",
+  "metadata": {
+    "timestamp": "2026-02-01T09:00:00Z",
+    "generator": {
+      "name": "manual",
+      "version": "1.0.0",
+      "futureGeneratorField": true
+    },
+    "futureMetadataField": { "note": "introduced after 1.0"
+  }
+  },
+  "topology": {
+    "resources": [
+      {
+        "id": "r-1",
+        "type": "compute.futuristic",
+        "name": "forward compatible resource",
+        "provider": { "name": "custom", "namespace": "osiris.example.future", "futureProviderField": 7 },
+        "properties": { "nested": { "deep": [1, 2, 3] } },
+        "extensions": { "osiris.example.acme": { "k": "v" } },
+        "futureResourceField": ["keep", "me"]
+      },
+      {
+        "id": "r-2",
+        "type": "network.futuristic",
+        "provider": { "name": "custom", "namespace": "osiris.example.future" }
+      }
+    ],
+    "connections": [
+      {
+        "id": "c-1",
+        "type": "network.future",
+        "source": "r-1",
+        "target": "r-2",
+        "futureConnectionField": { "any": "shape" }
+      }
+    ],
+    "groups": [
+      {
+        "id": "g-1",
+        "type": "logical.future",
+        "members": ["r-1", "r-2"],
+        "futureGroupField": 42
+      }
+    ],
+    "futureTopologyField": []
+  },
+  "futureTopLevelField": { "spec": "1.x" }
+}

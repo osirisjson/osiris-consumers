@@ -1,0 +1,42 @@
+{
+  "$schema": "https://osirisjson.org/schema/v1.0/osiris.schema.json",
+  "version": "1.0.0",
+  "metadata": {
+    "timestamp": "2026-02-01T09:00:00Z",
+    "generator": { "name": "manual", "version": "1.0.0" }
+  },
+  "topology": {
+    "resources": [
+      {
+        "id": "inj-1",
+        "type": "compute.host",
+        "name": "pipe | backtick ` asterisk * underscore _ bracket ] paren )",
+        "description": "<script>alert(1)</script> & <img src=x onerror=y> ctl:\u0000\u0007\u001b tab:\t nl:\n done",
+        "provider": { "name": "custom", "namespace": "osiris.example.injection" }
+      },
+      {
+        "id": "inj-2",
+        "type": "network.link",
+        "name": "duo lingua UTF-8 cafe Omega approx c 001F:\u001f emoji smile grinning \"quotes\" 'apostrophe' <xml/>",
+        "provider": { "name": "custom", "namespace": "osiris.example.injection" }
+      }
+    ],
+    "connections": [
+      {
+        "id": "inj-c-1",
+        "type": "network",
+        "source": "inj-1",
+        "target": "inj-2",
+        "name": "# heading-like\n- list-like\n| table | row |"
+      }
+    ],
+    "groups": [
+      {
+        "id": "inj-g-1",
+        "type": "logical.group",
+        "name": "]]></mxCell> & <mxCell value=\"x\"/>",
+        "members": ["inj-1", "inj-2"]
+      }
+    ]
+  }
+}

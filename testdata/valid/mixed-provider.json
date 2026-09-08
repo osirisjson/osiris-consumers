@@ -1,0 +1,59 @@
+{
+  "$schema": "https://osirisjson.org/schema/v1.0/osiris.schema.json",
+  "version": "1.0.0",
+  "metadata": {
+    "timestamp": "2026-02-01T09:00:00Z",
+    "generator": {
+      "name": "manual",
+      "version": "1.0.0"
+    },
+    "scope": { 
+      "name": "mixed provider",
+      "purpose": "documentation",
+      "providers": ["aws", "azure", "custom"]
+    }
+  },
+  "topology": {
+    "resources": [
+      {
+        "id": "aws::vpc-1",
+        "type": "network.vpc",
+        "name": "aws-vpc",
+        "provider": { "name": "aws", "native_id": "vpc-0abc", "type": "AWS::EC2::VPC", "region": "us-east-1", "account": "123456789012", "source": "aws-sdk-go-v2" },
+        "status": "active",
+        "properties": { "cidr": "192.0.2.0/24" }
+      },
+      {
+        "id": "azure::vnet-1",
+        "type": "network.vnet",
+        "name": "azure-vnet",
+        "provider": { "name": "azure", "native_id": "/subscriptions/x/resourceGroups/rg/providers/Microsoft.Network/virtualNetworks/vnet-1", "type": "Microsoft.Network/virtualNetworks", "subscription": "00000000-0000-0000-0000-000000000000" },
+        "status": "unknown"
+      },
+      {
+        "id": "onprem::rtr-1",
+        "type": "network.router",
+        "name": "LAB-RTR01",
+        "provider": { "name": "custom", "namespace": "osiris.example.dc", "site": "mxp" },
+        "status": "active"
+      },
+      {
+        "id": "future::thing-1",
+        "type": "network.switch",
+        "name": "unknown type on purpose",
+        "provider": { "name": "custom", "namespace": "osiris.example.future" },
+        "status": "active"
+      }
+    ],
+    "connections": [
+      { "id": "c-aws-azure", "type": "network.peering", "source": "aws::vpc-1", "target": "azure::vnet-1", "direction": "bidirectional" },
+      { "id": "c-azure-onprem", "type": "network.vpn", "source": "azure::vnet-1", "target": "onprem::rtr-1", "direction": "bidirectional" },
+      { "id": "c-onprem-future", "type": "unknown.linktype", "source": "onprem::rtr-1", "target": "future::thing-1" }
+    ],
+    "groups": [
+      { "id": "grp-cloud", "type": "logical.domain", "name": "Cloud", "members": ["aws::vpc-1", "azure::vnet-1"] },
+      { "id": "grp-edge", "type": "logical.domain", "name": "Edge", "members": ["onprem::rtr-1", "future::thing-1"] },
+      { "id": "grp-all", "type": "logical.domain", "name": "All", "children": ["grp-cloud", "grp-edge"] }
+    ]
+  }
+}
