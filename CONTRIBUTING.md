@@ -95,8 +95,10 @@ golden determinism.
 ## Tests and fixtures
 
 - Test files sit beside the code (`_test.go`). Table-driven tests are
-  preferred. Golden artifacts live under `testdata/golden/`,
-  adversarial fixtures under `testdata/adversarial/`.
+  preferred. Fixtures are organized by contract under `testdata/`
+  (`valid/`, `adversarial/`, `producer/`, `rendering/`, `golden/`); see
+  `testdata/README.md` for what each bucket means and where a new
+  fixture belongs.
 - Never commit real infrastructure data. Fixtures use documentation and
   reserved ranges only: RFC 5737 IPv4 (`192.0.2.0/24`,
   `198.51.100.0/24`, `203.0.113.0/24`), RFC 3849 IPv6 (`2001:DB8::/32`),
