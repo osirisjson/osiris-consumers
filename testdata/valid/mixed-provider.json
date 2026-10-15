@@ -39,7 +39,7 @@
       },
       {
         "id": "future::thing-1",
-        "type": "network.switch",
+        "type": "quantum.entangler",
         "name": "unknown type on purpose",
         "provider": { "name": "custom", "namespace": "osiris.example.future" },
         "status": "active"
