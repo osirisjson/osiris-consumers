@@ -13,10 +13,14 @@ import (
 )
 
 // DefaultMaxInputBytes is the input size ceiling applied when a caller
-// passes a non-positive limit to Read. It is deliberately generous for
-// a topology snapshot while still bounding memory for an untrusted
-// stream.
-const DefaultMaxInputBytes int64 = 64 << 20 // 64 MiB
+// passes a non-positive limit to Read. It is sized for OSIRIS JSON
+// producer outputs over hundreds MiB while still bounding memory for an
+// untrusted stream: the read path holds the input roughly four times at
+// peak (raw bytes, the retained immutable copy, and the parsed
+// read-only view), so this default admits about a 1.5 GiB working set.
+// Raise or lower it with the size-bound option, or using the
+// flag --max-input-bytes on the CLI.
+const DefaultMaxInputBytes int64 = 400 << 20 // 400 MiB
 
 // Input-reading error categories. Callers branch on these with
 // errors.Is; the CLI adapter maps every one of them to exit code 2
