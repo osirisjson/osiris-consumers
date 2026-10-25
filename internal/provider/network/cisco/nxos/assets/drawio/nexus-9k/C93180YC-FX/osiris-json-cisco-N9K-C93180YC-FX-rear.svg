@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2964"
+   height="274"
+   viewBox="0 0 2964 274"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="osiris-json-cisco-N9K-C93180YC-FX-rear.svg"
+   inkscape:version="1.4.4 (1:1.4.4+202605061435+dcaf3e7d9e)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.38808377"
+     inkscape:cx="1007.5144"
+     inkscape:cy="86.321569"
+     inkscape:window-width="1769"
+     inkscape:window-height="1190"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g46" />
+  <title
+     id="title">OSIRIS JSON Cisco Nexus 9000 C93180YC-FX rear chassis</title>
+  <desc
+     id="desc">An original flat gray vector rear view with two 500 watt AC power supplies, four hot-swap fan modules, and a management interface block.</desc>
+  <defs
+     id="defs19">
+    <pattern
+       id="honeycomb"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path1" />
+    </pattern>
+    <pattern
+       id="rail-vents"
+       width="18"
+       height="10"
+       patternUnits="userSpaceOnUse">
+      <rect
+         x="2"
+         y="2"
+         width="12"
+         height="6"
+         rx="2"
+         fill="#596164"
+         id="rect1" />
+    </pattern>
+    <g
+       id="psu-fan">
+      <path
+         d="m 27,0 h 104 l 27,27 v 104 l -27,27 H 27 L 0,131 V 27 Z"
+         fill="#242a2c"
+         stroke="#646c6f"
+         stroke-width="7"
+         id="path2" />
+      <circle
+         cx="79"
+         cy="79"
+         r="57"
+         fill="#161b1d"
+         stroke="#899093"
+         stroke-width="7"
+         id="circle2" />
+      <g
+         stroke="#687073"
+         stroke-width="7"
+         stroke-linecap="round"
+         id="g3">
+        <path
+           d="M 79,24 V 134 M 24,79 h 110 m -94,-39 78,78 m 0,-78 -78,78"
+           id="path3" />
+      </g>
+      <circle
+         cx="79"
+         cy="79"
+         r="38"
+         fill="#d9dedd"
+         stroke="#42b89b"
+         stroke-width="10"
+         id="circle3" />
+      <text
+         x="79"
+         y="86"
+         fill="#5b6767"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="17px"
+         font-weight="700"
+         text-anchor="middle"
+         id="text3">500W AC</text>
+    </g>
+    <g
+       id="iec-inlet">
+      <rect
+         width="124"
+         height="118"
+         rx="7"
+         fill="#1c2224"
+         stroke="#687073"
+         stroke-width="5"
+         id="rect3"
+         x="0"
+         y="0" />
+      <path
+         d="M 35,31 H 89 L 100,48 89,93 H 35 L 24,48 Z"
+         fill="#080b0c"
+         id="path4" />
+      <circle
+         cx="50"
+         cy="55"
+         r="6"
+         fill="#596164"
+         id="circle4" />
+      <circle
+         cx="74"
+         cy="55"
+         r="6"
+         fill="#596164"
+         id="circle5" />
+      <rect
+         x="55"
+         y="72"
+         width="14"
+         height="15"
+         rx="3"
+         fill="#596164"
+         id="rect5" />
+    </g>
+    <g
+       id="fan-module">
+      <rect
+         width="305"
+         height="205"
+         rx="8"
+         fill="#8e9699"
+         stroke="#555d60"
+         stroke-width="4"
+         id="rect6"
+         x="0"
+         y="0" />
+      <rect
+         x="13"
+         y="12"
+         width="279"
+         height="139"
+         rx="5"
+         fill="#1d2325"
+         id="rect7" />
+      <circle
+         cx="152"
+         cy="80"
+         r="61"
+         fill="#303638"
+         id="circle7" />
+      <rect
+         x="17"
+         y="16"
+         width="271"
+         height="131"
+         rx="4"
+         fill="url(#honeycomb)"
+         id="rect8" />
+      <path
+         d="m 26,126 33,64 h 187 l 33,-64"
+         fill="none"
+         stroke="#287bad"
+         stroke-width="20"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path8" />
+      <rect
+         x="120"
+         y="155"
+         width="65"
+         height="44"
+         rx="10"
+         fill="#3c464d"
+         stroke="#1e2528"
+         stroke-width="4"
+         id="rect9" />
+      <path
+         d="m 78,153 27,31 m 122,-31 -27,31"
+         stroke="#69a9cd"
+         stroke-width="5"
+         stroke-linecap="round"
+         id="path9" />
+    </g>
+    <g
+       id="rear-rj45">
+      <rect
+         width="110"
+         height="61"
+         rx="5"
+         fill="#697174"
+         id="rect10"
+         x="0"
+         y="0" />
+      <rect
+         x="7"
+         y="7"
+         width="96"
+         height="45"
+         rx="3"
+         fill="#202628"
+         id="rect11" />
+      <g
+         fill="#d4af37"
+         id="g19">
+        <rect
+           x="15"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect12" />
+        <rect
+           x="25"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect13" />
+        <rect
+           x="35"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect14" />
+        <rect
+           x="45"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect15" />
+        <rect
+           x="55"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect16" />
+        <rect
+           x="65"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect17" />
+        <rect
+           x="75"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect18" />
+        <rect
+           x="85"
+           y="9"
+           width="6"
+           height="13"
+           rx="1"
+           id="rect19" />
+      </g>
+      <path
+         d="m 28,52 h 54 l -7,7 H 35 Z"
+         fill="#303638"
+         id="path19" />
+      <circle
+         cx="103"
+         cy="8"
+         r="4"
+         fill="#42b89b"
+         id="circle19" />
+    </g>
+    <pattern
+       id="honeycomb-3"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path1-6" />
+    </pattern>
+  </defs>
+  <g
+     id="g46"
+     inkscape:label="OSIRIS-JSON-CISCO-N9k-C93180YC-REAR"
+     transform="translate(-18,-23)">
+    <rect
+       x="20"
+       y="25"
+       width="2960"
+       height="270"
+       rx="17"
+       fill="#bbc0c2"
+       stroke="#51585b"
+       stroke-width="4"
+       id="rect22"
+       inkscape:label="chassis-background" />
+    <text
+       x="43"
+       y="282"
+       fill="#3d4547"
+       font-family="Helvetica, Arial, sans-serif"
+       font-size="14px"
+       font-weight="700"
+       letter-spacing="0.5"
+       id="text46"
+       inkscape:label="model">CISCO NEXUS 9000 C93180YC-FX REAR</text>
+    <g
+       id="power-supply-1"
+       data-role="power-supply"
+       transform="translate(35,55)"
+       inkscape:label="power-supply-01">
+      <rect
+         width="590"
+         height="205"
+         rx="9"
+         fill="#9fa6a9"
+         stroke="#555d60"
+         stroke-width="4"
+         id="rect23"
+         x="0"
+         y="0"
+         inkscape:label="background" />
+      <text
+         x="18"
+         y="25"
+         fill="#3f4749"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700"
+         id="text23"
+         style="display:inline">PSU 1</text>
+      <g
+         id="use23"
+         transform="translate(58,26)"
+         inkscape:label="fan">
+        <path
+           d="m 27,0 h 104 l 27,27 v 104 l -27,27 H 27 L 0,131 V 27 Z"
+           fill="#242a2c"
+           stroke="#646c6f"
+           stroke-width="7"
+           id="path73" />
+        <circle
+           cx="79"
+           cy="79"
+           r="57"
+           fill="#161b1d"
+           stroke="#899093"
+           stroke-width="7"
+           id="circle74" />
+        <g
+           stroke="#687073"
+           stroke-width="7"
+           stroke-linecap="round"
+           id="g74">
+          <path
+             d="M 79,24 V 134 M 24,79 h 110 m -94,-39 78,78 m 0,-78 -78,78"
+             id="path74" />
+        </g>
+        <circle
+           cx="79"
+           cy="79"
+           r="38"
+           fill="#d9dedd"
+           stroke="#42b89b"
+           stroke-width="10"
+           id="circle75"
+           style="stroke:none" />
+        <text
+           x="79"
+           y="86"
+           fill="#5b6767"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="17px"
+           font-weight="700"
+           text-anchor="middle"
+           id="text75">500W AC</text>
+      </g>
+      <g
+         id="use24"
+         transform="translate(326,43)"
+         inkscape:label="socket">
+        <rect
+           width="124"
+           height="118"
+           rx="7"
+           fill="#1c2224"
+           stroke="#687073"
+           stroke-width="5"
+           id="rect71"
+           x="0"
+           y="0" />
+        <path
+           d="M 35,31 H 89 L 100,48 89,93 H 35 L 24,48 Z"
+           fill="#080b0c"
+           id="path71" />
+        <circle
+           cx="50"
+           cy="55"
+           r="6"
+           fill="#596164"
+           id="circle72" />
+        <circle
+           cx="74"
+           cy="55"
+           r="6"
+           fill="#596164"
+           id="circle73" />
+        <rect
+           x="55"
+           y="72"
+           width="14"
+           height="15"
+           rx="3"
+           fill="#596164"
+           id="rect73" />
+      </g>
+      <path
+         d="m 452,56 c 48,-11 51,65 18,96 -21,19 -13,47 20,54"
+         fill="none"
+         stroke="#22282a"
+         stroke-width="18"
+         stroke-linecap="round"
+         id="path24" />
+      <path
+         d="M 512,47 V 186"
+         stroke="#287bad"
+         stroke-width="24"
+         stroke-linecap="round"
+         id="path25" />
+      <rect
+         x="498"
+         y="88"
+         width="28"
+         height="18"
+         rx="4"
+         fill="#153a51"
+         id="rect25" />
+      <circle
+         cx="24"
+         cy="55"
+         r="7"
+         fill="#42b89b"
+         id="circle25"
+         inkscape:label="power-supply-01-status-icon"
+         style="fill:#545454;fill-opacity:1" />
+      <g
+         transform="translate(23,178)"
+         id="g27"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle27"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path27" />
+      </g>
+      <g
+         transform="translate(286,22)"
+         id="g28"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle28"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path28" />
+      </g>
+    </g>
+    <g
+       fill="#3f4749"
+       font-family="Helvetica, Arial, sans-serif"
+       font-size="11px"
+       font-weight="700"
+       text-anchor="middle"
+       id="g31"
+       inkscape:label="fan-group">
+      <use
+         data-role="fan-module"
+         href="#fan-module"
+         x="650"
+         y="55"
+         id="use28"
+         inkscape:label="Fan 1" />
+      <text
+         x="807"
+         y="48"
+         id="text28"
+         inkscape:label="text Fan 1">FAN 1</text>
+      <use
+         data-role="fan-module"
+         href="#fan-module"
+         x="980"
+         y="55"
+         id="use29"
+         inkscape:label="Fan 2" />
+      <text
+         x="1137"
+         y="48"
+         id="text29"
+         inkscape:label="text Fan 2">FAN 2</text>
+      <use
+         data-role="fan-module"
+         href="#fan-module"
+         x="1310"
+         y="55"
+         id="use30"
+         inkscape:label="Fan 3" />
+      <text
+         x="1467"
+         y="48"
+         id="text30"
+         inkscape:label="text Fan 3">FAN 3</text>
+      <use
+         data-role="fan-module"
+         href="#fan-module"
+         x="1640"
+         y="55"
+         id="use31"
+         inkscape:label="Fan 4"
+         style="display:inline" />
+      <text
+         x="1797"
+         y="48"
+         id="text31"
+         inkscape:label="text Fan 4">FAN 4</text>
+    </g>
+    <g
+       id="power-supply-2"
+       data-role="power-supply"
+       transform="translate(1975,55)"
+       inkscape:label="power-supply-02">
+      <rect
+         width="590"
+         height="205"
+         rx="9"
+         fill="#9fa6a9"
+         stroke="#555d60"
+         stroke-width="4"
+         id="rect31"
+         x="0"
+         y="0"
+         style="display:inline"
+         inkscape:label="background" />
+      <text
+         x="18"
+         y="25"
+         fill="#3f4749"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700"
+         id="text32"
+         style="display:inline">PSU 2</text>
+      <g
+         id="use32"
+         transform="translate(58,26)"
+         inkscape:label="fan">
+        <path
+           d="m 27,0 h 104 l 27,27 v 104 l -27,27 H 27 L 0,131 V 27 Z"
+           fill="#242a2c"
+           stroke="#646c6f"
+           stroke-width="7"
+           id="path69" />
+        <circle
+           cx="79"
+           cy="79"
+           r="57"
+           fill="#161b1d"
+           stroke="#899093"
+           stroke-width="7"
+           id="circle70" />
+        <g
+           stroke="#687073"
+           stroke-width="7"
+           stroke-linecap="round"
+           id="g70">
+          <path
+             d="M 79,24 V 134 M 24,79 h 110 m -94,-39 78,78 m 0,-78 -78,78"
+             id="path70" />
+        </g>
+        <circle
+           cx="79"
+           cy="79"
+           r="38"
+           fill="#d9dedd"
+           stroke="#42b89b"
+           stroke-width="10"
+           id="circle71"
+           style="display:inline;stroke:none" />
+        <text
+           x="79"
+           y="86"
+           fill="#5b6767"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="17px"
+           font-weight="700"
+           text-anchor="middle"
+           id="text71">500W AC</text>
+      </g>
+      <g
+         id="use33"
+         transform="translate(326,43)"
+         inkscape:label="socket">
+        <rect
+           width="124"
+           height="118"
+           rx="7"
+           fill="#1c2224"
+           stroke="#687073"
+           stroke-width="5"
+           id="rect68"
+           x="0"
+           y="0" />
+        <path
+           d="M 35,31 H 89 L 100,48 89,93 H 35 L 24,48 Z"
+           fill="#080b0c"
+           id="path68" />
+        <circle
+           cx="50"
+           cy="55"
+           r="6"
+           fill="#596164"
+           id="circle68" />
+        <circle
+           cx="74"
+           cy="55"
+           r="6"
+           fill="#596164"
+           id="circle69" />
+        <rect
+           x="55"
+           y="72"
+           width="14"
+           height="15"
+           rx="3"
+           fill="#596164"
+           id="rect69" />
+      </g>
+      <path
+         d="m 452,56 c 48,-11 51,65 18,96 -21,19 -13,47 20,54"
+         fill="none"
+         stroke="#22282a"
+         stroke-width="18"
+         stroke-linecap="round"
+         id="path33" />
+      <path
+         d="M 512,47 V 186"
+         stroke="#287bad"
+         stroke-width="24"
+         stroke-linecap="round"
+         id="path34" />
+      <rect
+         x="498"
+         y="88"
+         width="28"
+         height="18"
+         rx="4"
+         fill="#153a51"
+         id="rect34"
+         style="display:inline" />
+      <circle
+         cx="24"
+         cy="55"
+         r="7"
+         fill="#42b89b"
+         id="circle34"
+         inkscape:label="power-supply-02-status-icon"
+         style="fill:#545454;fill-opacity:1" />
+      <g
+         transform="translate(23,178)"
+         id="g36"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle36"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path36" />
+      </g>
+      <g
+         transform="translate(286,22)"
+         id="g37"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle37"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path37" />
+      </g>
+    </g>
+    <g
+       id="management-block"
+       transform="translate(2590,55)"
+       inkscape:label="RJ45-management-block">
+      <rect
+         width="370"
+         height="205"
+         rx="9"
+         fill="#adb4b6"
+         stroke="#555d60"
+         stroke-width="4"
+         id="rect37"
+         x="0"
+         y="0" />
+      <g
+         fill="#3f4749"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="10px"
+         font-weight="700"
+         id="g39"
+         transform="translate(-12.883816,11.367223)"
+         inkscape:label="labels">
+        <text
+           x="31"
+           y="46"
+           id="text38">L1</text>
+        <text
+           x="31"
+           y="121"
+           id="text39">L2</text>
+        <text
+           x="26"
+           y="24"
+           fill="#3f4749"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="11px"
+           font-weight="700"
+           id="text37"
+           transform="translate(12.883816,-11.367223)">MANAGEMENT</text>
+      </g>
+      <g
+         id="use39"
+         transform="matrix(0.80088648,0,0,1,62.018672,42.367223)"
+         inkscape:label="L1-port">
+        <rect
+           width="110"
+           height="61"
+           rx="5"
+           fill="#697174"
+           id="rect58"
+           x="0"
+           y="0" />
+        <rect
+           x="7"
+           y="7"
+           width="96"
+           height="45"
+           rx="3"
+           fill="#202628"
+           id="rect59" />
+        <g
+           fill="#d4af37"
+           id="g67">
+          <rect
+             x="15"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect60" />
+          <rect
+             x="25"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect61" />
+          <rect
+             x="35"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect62" />
+          <rect
+             x="45"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect63" />
+          <rect
+             x="55"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect64" />
+          <rect
+             x="65"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect65" />
+          <rect
+             x="75"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect66" />
+          <rect
+             x="85"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect67" />
+        </g>
+        <path
+           d="m 28,52 h 54 l -7,7 H 35 Z"
+           fill="#303638"
+           id="path67" />
+      </g>
+      <g
+         id="use40"
+         transform="matrix(0.80088648,0,0,1,179.01867,42.367223)"
+         inkscape:label="management-port">
+        <rect
+           width="110"
+           height="61"
+           rx="5"
+           fill="#697174"
+           id="rect48"
+           x="0"
+           y="0" />
+        <rect
+           x="7"
+           y="7"
+           width="96"
+           height="45"
+           rx="3"
+           fill="#202628"
+           id="rect49" />
+        <g
+           fill="#d4af37"
+           id="g57">
+          <rect
+             x="15"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect50" />
+          <rect
+             x="25"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect51" />
+          <rect
+             x="35"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect52" />
+          <rect
+             x="45"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect53" />
+          <rect
+             x="55"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect54" />
+          <rect
+             x="65"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect55" />
+          <rect
+             x="75"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect56" />
+          <rect
+             x="85"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect57" />
+        </g>
+        <path
+           d="m 28,52 h 54 l -7,7 H 35 Z"
+           fill="#303638"
+           id="path57" />
+      </g>
+      <g
+         id="use41"
+         transform="matrix(0.79795834,0,0,1,62.340767,116.36722)"
+         inkscape:label="L2-port">
+        <rect
+           width="110"
+           height="61"
+           rx="5"
+           fill="#697174"
+           id="rect32"
+           x="0"
+           y="0" />
+        <rect
+           x="7"
+           y="7"
+           width="96"
+           height="45"
+           rx="3"
+           fill="#202628"
+           id="rect33" />
+        <g
+           fill="#d4af37"
+           id="g47">
+          <rect
+             x="15"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect35" />
+          <rect
+             x="25"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect36" />
+          <rect
+             x="35"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect38" />
+          <rect
+             x="45"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect39" />
+          <rect
+             x="55"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect40" />
+          <rect
+             x="65"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect41" />
+          <rect
+             x="75"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect45" />
+          <rect
+             x="85"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect46" />
+        </g>
+        <path
+           d="m 28,52 h 54 l -7,7 H 35 Z"
+           fill="#303638"
+           id="path47" />
+      </g>
+      <g
+         id="use42"
+         transform="matrix(0.79795834,0,0,1,179.34076,116.36722)"
+         inkscape:label="console-port">
+        <rect
+           width="110"
+           height="61"
+           rx="5"
+           fill="#697174"
+           id="rect2"
+           x="0"
+           y="0" />
+        <rect
+           x="7"
+           y="7"
+           width="96"
+           height="45"
+           rx="3"
+           fill="#202628"
+           id="rect4" />
+        <g
+           fill="#d4af37"
+           id="g30">
+          <rect
+             x="15"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect20" />
+          <rect
+             x="25"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect21" />
+          <rect
+             x="35"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect24" />
+          <rect
+             x="45"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect26" />
+          <rect
+             x="55"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect27" />
+          <rect
+             x="65"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect28" />
+          <rect
+             x="75"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect29" />
+          <rect
+             x="85"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect30" />
+        </g>
+        <path
+           d="m 28,52 h 54 l -7,7 H 35 Z"
+           fill="#303638"
+           id="path30" />
+      </g>
+      <g
+         id="g1"
+         inkscape:label="usb-port">
+        <text
+           x="296"
+           y="25"
+           fill="#3f4749"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="10px"
+           font-weight="700"
+           id="text42">USB</text>
+        <rect
+           x="301"
+           y="42"
+           width="42"
+           height="112"
+           rx="5"
+           fill="#202628"
+           id="rect42" />
+        <rect
+           x="312"
+           y="57"
+           width="20"
+           height="80"
+           rx="2"
+           fill="#777f81"
+           id="rect43" />
+        <rect
+           x="316"
+           y="64"
+           width="12"
+           height="26"
+           rx="2"
+           fill="#d4af37"
+           id="rect44" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata46">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>OSIRIS JSON Cisco Nexus 9000 C93180YC-FX rear chassis</dc:title>
+        <dc:description>OSIRIS JSON Cisco Nexus 9000 C93180YC-FX flat gray rear chassis</dc:description>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Tia Zanella - https://skhell.com</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>https://osirisjson.org/en</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>https://osirisjson.org/en</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://osirisjson.org/en</dc:identifier>
+        <dc:source>https://osirisjson.org/en</dc:source>
+        <dc:date>2026-10-25</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
