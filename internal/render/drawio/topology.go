@@ -49,7 +49,7 @@ func (r *TopologyRenderer) Render(ctx context.Context, w io.Writer) error {
 	l := buildLayout(m, ids)
 	page := choosePageForExtent(l.extent())
 
-	p.raw(`<mxfile host="osirisjson-consumer">` + "\n")
+	p.raw(`<mxfile host="osirisjson-consumer docs.osirisjson.org/osiris-consumers/getting-started">` + "\n")
 	p.raw(`  <diagram id="osirisjson-topology" name="OSIRIS JSON topology osirisjson.org">` + "\n")
 	p.raw(fmt.Sprintf(
 		`    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="%d" pageHeight="%d" math="0" shadow="0">`+"\n",
