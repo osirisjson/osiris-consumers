@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2964"
+   height="274"
+   viewBox="0 0 2964 274"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="cisco-catalyst-C8200L-1N-4T-front.svg"
+   inkscape:version="1.4.4 (1:1.4.4+202605061435+dcaf3e7d9e)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.54883333"
+     inkscape:cx="354.3881"
+     inkscape:cy="226.84482"
+     inkscape:window-width="1078"
+     inkscape:window-height="1190"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <title
+     id="title">OSIRIS JSON Cisco Catalyst C8200L-1N-4T front chassis</title>
+  <desc
+     id="desc">An original editable flat gray vector of a Cisco Catalyst C8200L-1N-4T edge router with console and USB ports, two RJ45 WAN ports, two SFP WAN ports, an LTE PIM module, and a NIM bay.</desc>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="OSIRIS-JSON-CISCO-CATALYST-C8200L">
+    <g
+       id="layer-chassis"
+       inkscape:groupmode="layer"
+       inkscape:label="Chassis"
+       transform="translate(-18,-23)">
+      <rect
+         id="chassis"
+         x="20"
+         y="25"
+         width="2960"
+         height="270"
+         rx="16"
+         fill="#d0d2d1"
+         stroke="#555d60"
+         stroke-width="4" />
+      <path
+         id="top-vent-1"
+         d="M 230 28 L 237 38 L 244 28 L 230 28 z M 254 28 L 261 38 L 268 28 L 254 28 z M 278 28 L 285 38 L 292 28 L 278 28 z M 302 28 L 309 38 L 316 28 L 302 28 z M 326 28 L 333 38 L 340 28 L 326 28 z M 350 28 L 357 38 L 364 28 L 350 28 z M 374 28 L 381 38 L 388 28 L 374 28 z M 398 28 L 405 38 L 412 28 L 398 28 z M 422 28 L 429 38 L 436 28 L 422 28 z M 446 28 L 453 38 L 460 28 L 446 28 z M 470 28 L 477 38 L 484 28 L 470 28 z M 494 28 L 501 38 L 508 28 L 494 28 z M 518 28 L 525 38 L 532 28 L 518 28 z M 542 28 L 549 38 L 556 28 L 542 28 z M 566 28 L 573 38 L 580 28 L 566 28 z M 590 28 L 597 38 L 604 28 L 590 28 z M 614 28 L 621 38 L 628 28 L 614 28 z M 638 28 L 645 38 L 652 28 L 638 28 z M 662 28 L 669 38 L 676 28 L 662 28 z M 686 28 L 693 38 L 700 28 L 686 28 z M 710 28 L 717 38 L 724 28 L 710 28 z M 734 28 L 741 38 L 748 28 L 734 28 z M 758 28 L 765 38 L 772 28 L 758 28 z M 782 28 L 789 38 L 796 28 L 782 28 z M 806 28 L 813 38 L 820 28 L 806 28 z M 830 28 L 837 38 L 844 28 L 830 28 z M 854 28 L 861 38 L 868 28 L 854 28 z M 878 28 L 885 38 L 892 28 L 878 28 z M 902 28 L 909 38 L 916 28 L 902 28 z M 926 28 L 933 38 L 940 28 L 926 28 z M 950 28 L 957 38 L 964 28 L 950 28 z M 974 28 L 981 38 L 988 28 L 974 28 z M 998 28 L 1005 38 L 1012 28 L 998 28 z M 1022 28 L 1029 38 L 1036 28 L 1022 28 z M 1046 28 L 1053 38 L 1060 28 L 1046 28 z M 1070 28 L 1077 38 L 1084 28 L 1070 28 z M 1094 28 L 1101 38 L 1108 28 L 1094 28 z M 1118 28 L 1125 38 L 1132 28 L 1118 28 z M 1142 28 L 1149 38 L 1156 28 L 1142 28 z M 1166 28 L 1173 38 L 1180 28 L 1166 28 z M 1190 28 L 1197 38 L 1204 28 L 1190 28 z M 1214 28 L 1221 38 L 1228 28 L 1214 28 z M 1238 28 L 1245 38 L 1252 28 L 1238 28 z M 1262 28 L 1269 38 L 1276 28 L 1262 28 z M 1286 28 L 1293 38 L 1300 28 L 1286 28 z M 1310 28 L 1317 38 L 1324 28 L 1310 28 z M 1334 28 L 1341 38 L 1348 28 L 1334 28 z M 1358 28 L 1365 38 L 1372 28 L 1358 28 z M 1382 28 L 1389 38 L 1396 28 L 1382 28 z M 1406 28 L 1413 38 L 1420 28 L 1406 28 z M 1430 28 L 1437 38 L 1444 28 L 1430 28 z M 1454 28 L 1461 38 L 1468 28 L 1454 28 z M 1478 28 L 1485 38 L 1492 28 L 1478 28 z M 1502 28 L 1509 38 L 1516 28 L 1502 28 z M 1526 28 L 1533 38 L 1540 28 L 1526 28 z M 1550 28 L 1557 38 L 1564 28 L 1550 28 z M 1574 28 L 1581 38 L 1588 28 L 1574 28 z M 1598 28 L 1605 38 L 1612 28 L 1598 28 z M 1622 28 L 1629 38 L 1636 28 L 1622 28 z M 1646 28 L 1653 38 L 1660 28 L 1646 28 z M 1670 28 L 1677 38 L 1684 28 L 1670 28 z M 1694 28 L 1701 38 L 1708 28 L 1694 28 z M 1718 28 L 1725 38 L 1732 28 L 1718 28 z M 1742 28 L 1749 38 L 1756 28 L 1742 28 z M 1766 28 L 1773 38 L 1780 28 L 1766 28 z M 1790 28 L 1797 38 L 1804 28 L 1790 28 z M 1814 28 L 1821 38 L 1828 28 L 1814 28 z M 1838 28 L 1845 38 L 1852 28 L 1838 28 z M 1862 28 L 1869 38 L 1876 28 L 1862 28 z M 1886 28 L 1893 38 L 1900 28 L 1886 28 z M 1910 28 L 1917 38 L 1924 28 L 1910 28 z M 1934 28 L 1941 38 L 1948 28 L 1934 28 z "
+         style="fill:#61686b;fill-opacity:1"
+         inkscape:label="top-vent" />
+    </g>
+    <g
+       id="layer-brand-status"
+       inkscape:groupmode="layer"
+       inkscape:label="Brand"
+       transform="translate(-18,-23)">
+      <text
+         id="brand"
+         x="76"
+         y="82"
+         fill="#3d4547"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="21px"
+         font-weight="700"
+         letter-spacing="2">CISCO</text>
+      <text
+         id="model"
+         x="76"
+         y="104"
+         fill="#596164"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700"
+         inkscape:label="model label">C8200L-1N-4T</text>
+      <text
+         id="family"
+         x="76"
+         y="278"
+         fill="#3d4547"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="13px"
+         font-weight="700"
+         inkscape:label="family label">CATALYST EDGE</text>
+      <g
+         id="status-leds"
+         inkscape:label="Status LEDs">
+        <circle
+           id="status-power"
+           cx="282"
+           cy="80"
+           r="7"
+           fill="#79A89D"
+           style="fill:#4cb825;fill-opacity:1" />
+        <circle
+           id="status-system"
+           cx="318"
+           cy="80"
+           r="7"
+           fill="#697174" />
+        <circle
+           id="status-alarm"
+           cx="354"
+           cy="80"
+           r="7"
+           fill="#697174" />
+        <text
+           x="270"
+           y="61"
+           fill="#4d5557"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="9px"
+           id="text1">PWR</text>
+        <text
+           x="307"
+           y="61"
+           fill="#4d5557"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="9px"
+           id="text2">SYS</text>
+        <text
+           x="343"
+           y="61"
+           fill="#4d5557"
+           font-family="Helvetica, Arial, sans-serif"
+           font-size="9px"
+           id="text3">ALM</text>
+      </g>
+      <g
+         id="left-vent-field"
+         inkscape:label="Left ventilation">
+        <path
+           id="left-vent-1-1"
+           d="M 225 98 A 7 7 0 0 0 218 105 A 7 7 0 0 0 225 112 A 7 7 0 0 0 232 105 A 7 7 0 0 0 225 98 z M 250 98 A 7 7 0 0 0 243 105 A 7 7 0 0 0 250 112 A 7 7 0 0 0 257 105 A 7 7 0 0 0 250 98 z M 275 98 A 7 7 0 0 0 268 105 A 7 7 0 0 0 275 112 A 7 7 0 0 0 282 105 A 7 7 0 0 0 275 98 z M 300 98 A 7 7 0 0 0 293 105 A 7 7 0 0 0 300 112 A 7 7 0 0 0 307 105 A 7 7 0 0 0 300 98 z M 325 98 A 7 7 0 0 0 318 105 A 7 7 0 0 0 325 112 A 7 7 0 0 0 332 105 A 7 7 0 0 0 325 98 z M 350 98 A 7 7 0 0 0 343 105 A 7 7 0 0 0 350 112 A 7 7 0 0 0 357 105 A 7 7 0 0 0 350 98 z M 375 98 A 7 7 0 0 0 368 105 A 7 7 0 0 0 375 112 A 7 7 0 0 0 382 105 A 7 7 0 0 0 375 98 z M 400 98 A 7 7 0 0 0 393 105 A 7 7 0 0 0 400 112 A 7 7 0 0 0 407 105 A 7 7 0 0 0 400 98 z M 425 98 A 7 7 0 0 0 418 105 A 7 7 0 0 0 425 112 A 7 7 0 0 0 432 105 A 7 7 0 0 0 425 98 z M 237.5 121 A 7 7 0 0 0 230.5 128 A 7 7 0 0 0 237.5 135 A 7 7 0 0 0 244.5 128 A 7 7 0 0 0 237.5 121 z M 262.5 121 A 7 7 0 0 0 255.5 128 A 7 7 0 0 0 262.5 135 A 7 7 0 0 0 269.5 128 A 7 7 0 0 0 262.5 121 z M 287.5 121 A 7 7 0 0 0 280.5 128 A 7 7 0 0 0 287.5 135 A 7 7 0 0 0 294.5 128 A 7 7 0 0 0 287.5 121 z M 312.5 121 A 7 7 0 0 0 305.5 128 A 7 7 0 0 0 312.5 135 A 7 7 0 0 0 319.5 128 A 7 7 0 0 0 312.5 121 z M 337.5 121 A 7 7 0 0 0 330.5 128 A 7 7 0 0 0 337.5 135 A 7 7 0 0 0 344.5 128 A 7 7 0 0 0 337.5 121 z M 362.5 121 A 7 7 0 0 0 355.5 128 A 7 7 0 0 0 362.5 135 A 7 7 0 0 0 369.5 128 A 7 7 0 0 0 362.5 121 z M 387.5 121 A 7 7 0 0 0 380.5 128 A 7 7 0 0 0 387.5 135 A 7 7 0 0 0 394.5 128 A 7 7 0 0 0 387.5 121 z M 412.5 121 A 7 7 0 0 0 405.5 128 A 7 7 0 0 0 412.5 135 A 7 7 0 0 0 419.5 128 A 7 7 0 0 0 412.5 121 z M 437.5 121 A 7 7 0 0 0 430.5 128 A 7 7 0 0 0 437.5 135 A 7 7 0 0 0 444.5 128 A 7 7 0 0 0 437.5 121 z M 225 144 A 7 7 0 0 0 218 151 A 7 7 0 0 0 225 158 A 7 7 0 0 0 232 151 A 7 7 0 0 0 225 144 z M 250 144 A 7 7 0 0 0 243 151 A 7 7 0 0 0 250 158 A 7 7 0 0 0 257 151 A 7 7 0 0 0 250 144 z M 275 144 A 7 7 0 0 0 268 151 A 7 7 0 0 0 275 158 A 7 7 0 0 0 282 151 A 7 7 0 0 0 275 144 z M 300 144 A 7 7 0 0 0 293 151 A 7 7 0 0 0 300 158 A 7 7 0 0 0 307 151 A 7 7 0 0 0 300 144 z M 325 144 A 7 7 0 0 0 318 151 A 7 7 0 0 0 325 158 A 7 7 0 0 0 332 151 A 7 7 0 0 0 325 144 z M 350 144 A 7 7 0 0 0 343 151 A 7 7 0 0 0 350 158 A 7 7 0 0 0 357 151 A 7 7 0 0 0 350 144 z M 375 144 A 7 7 0 0 0 368 151 A 7 7 0 0 0 375 158 A 7 7 0 0 0 382 151 A 7 7 0 0 0 375 144 z M 400 144 A 7 7 0 0 0 393 151 A 7 7 0 0 0 400 158 A 7 7 0 0 0 407 151 A 7 7 0 0 0 400 144 z M 425 144 A 7 7 0 0 0 418 151 A 7 7 0 0 0 425 158 A 7 7 0 0 0 432 151 A 7 7 0 0 0 425 144 z M 237.5 167 A 7 7 0 0 0 230.5 174 A 7 7 0 0 0 237.5 181 A 7 7 0 0 0 244.5 174 A 7 7 0 0 0 237.5 167 z M 262.5 167 A 7 7 0 0 0 255.5 174 A 7 7 0 0 0 262.5 181 A 7 7 0 0 0 269.5 174 A 7 7 0 0 0 262.5 167 z M 287.5 167 A 7 7 0 0 0 280.5 174 A 7 7 0 0 0 287.5 181 A 7 7 0 0 0 294.5 174 A 7 7 0 0 0 287.5 167 z M 312.5 167 A 7 7 0 0 0 305.5 174 A 7 7 0 0 0 312.5 181 A 7 7 0 0 0 319.5 174 A 7 7 0 0 0 312.5 167 z M 337.5 167 A 7 7 0 0 0 330.5 174 A 7 7 0 0 0 337.5 181 A 7 7 0 0 0 344.5 174 A 7 7 0 0 0 337.5 167 z M 362.5 167 A 7 7 0 0 0 355.5 174 A 7 7 0 0 0 362.5 181 A 7 7 0 0 0 369.5 174 A 7 7 0 0 0 362.5 167 z M 387.5 167 A 7 7 0 0 0 380.5 174 A 7 7 0 0 0 387.5 181 A 7 7 0 0 0 394.5 174 A 7 7 0 0 0 387.5 167 z M 412.5 167 A 7 7 0 0 0 405.5 174 A 7 7 0 0 0 412.5 181 A 7 7 0 0 0 419.5 174 A 7 7 0 0 0 412.5 167 z M 437.5 167 A 7 7 0 0 0 430.5 174 A 7 7 0 0 0 437.5 181 A 7 7 0 0 0 444.5 174 A 7 7 0 0 0 437.5 167 z "
+           inkscape:label="left-vent"
+           style="fill:#61686b;fill-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="layer-management"
+       inkscape:groupmode="layer"
+       inkscape:label="Console and USB"
+       transform="translate(-18,-23)">
+      <text
+         x="230"
+         y="210"
+         fill="#4d5557"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="10px"
+         font-weight="700"
+         id="text4"
+         inkscape:label="CONSOLE label">CONSOLE</text>
+      <g
+         id="console-rj45"
+         inkscape:label="RJ45 Console">
+        <rect
+           x="230"
+           y="217"
+           width="104"
+           height="75"
+           rx="6"
+           fill="#687073"
+           id="rect4" />
+        <rect
+           x="238"
+           y="225"
+           width="88"
+           height="52"
+           rx="4"
+           fill="#202628"
+           id="rect5" />
+        <path
+           id="console-rj45-pin-1"
+           d="m 249,230 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z m 9,0 c -0.554,0 -1,0.446 -1,1 v 13 c 0,0.554 0.446,1 1,1 h 3 c 0.554,0 1,-0.446 1,-1 v -13 c 0,-0.554 -0.446,-1 -1,-1 z"
+           style="display:inline;fill:#d4af37;fill-opacity:1" />
+        <path
+           d="m 254,277 h 56 l -7,9 h -42 z"
+           fill="#353c3e"
+           id="path5"
+           style="display:inline" />
+      </g>
+      <text
+         x="378"
+         y="210"
+         fill="#4d5557"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="10px"
+         font-weight="700"
+         id="text5"
+         inkscape:label="USB 3.0 label">USB 3.0</text>
+      <g
+         id="usb-a-port"
+         inkscape:label="USB A 3.0">
+        <rect
+           x="370"
+           y="229"
+           width="110"
+           height="42"
+           rx="5"
+           fill="#202628"
+           id="rect6" />
+        <rect
+           x="384"
+           y="238"
+           width="82"
+           height="24"
+           rx="3"
+           fill="#767e80"
+           id="rect7" />
+        <rect
+           x="395"
+           y="242"
+           width="60"
+           height="15"
+           rx="2"
+           fill="#2896c8"
+           id="rect8" />
+      </g>
+    </g>
+    <g
+       id="layer-wan-ports"
+       inkscape:groupmode="layer"
+       inkscape:label="WAN-ports"
+       transform="translate(-18,-23)">
+      <rect
+         id="rj45-wan-panel"
+         x="645"
+         y="66"
+         width="155"
+         height="212"
+         rx="9"
+         fill="#b8bdbd"
+         stroke="#858c8e"
+         stroke-width="3" />
+      <rect
+         id="rj45-label-strip"
+         x="651"
+         y="72"
+         width="143"
+         height="20"
+         rx="4"
+         fill="#d4af37" />
+      <text
+         x="722"
+         y="86"
+         fill="#373d3f"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="10px"
+         font-weight="700"
+         text-anchor="middle"
+         id="text8"
+         inkscape:label="GE0/0/0 GE0/0/1 label">GE0/0/0 GE0/0/1</text>
+      <g
+         id="wan-rj45-0"
+         inkscape:label="GE0 0 0 RJ45">
+        <rect
+           x="670"
+           y="99"
+           width="104"
+           height="75"
+           rx="6"
+           fill="#687073"
+           id="rect9" />
+        <rect
+           x="678"
+           y="107"
+           width="88"
+           height="52"
+           rx="4"
+           fill="#202628"
+           id="rect10" />
+        <path
+           id="wan-rj45-0-pin-1"
+           d="M 689 112 C 688.446 112 688 112.446 688 113 L 688 126 C 688 126.554 688.446 127 689 127 L 692 127 C 692.554 127 693 126.554 693 126 L 693 113 C 693 112.446 692.554 112 692 112 L 689 112 z M 698 112 C 697.446 112 697 112.446 697 113 L 697 126 C 697 126.554 697.446 127 698 127 L 701 127 C 701.554 127 702 126.554 702 126 L 702 113 C 702 112.446 701.554 112 701 112 L 698 112 z M 707 112 C 706.446 112 706 112.446 706 113 L 706 126 C 706 126.554 706.446 127 707 127 L 710 127 C 710.554 127 711 126.554 711 126 L 711 113 C 711 112.446 710.554 112 710 112 L 707 112 z M 716 112 C 715.446 112 715 112.446 715 113 L 715 126 C 715 126.554 715.446 127 716 127 L 719 127 C 719.554 127 720 126.554 720 126 L 720 113 C 720 112.446 719.554 112 719 112 L 716 112 z M 725 112 C 724.446 112 724 112.446 724 113 L 724 126 C 724 126.554 724.446 127 725 127 L 728 127 C 728.554 127 729 126.554 729 126 L 729 113 C 729 112.446 728.554 112 728 112 L 725 112 z M 734 112 C 733.446 112 733 112.446 733 113 L 733 126 C 733 126.554 733.446 127 734 127 L 737 127 C 737.554 127 738 126.554 738 126 L 738 113 C 738 112.446 737.554 112 737 112 L 734 112 z M 743 112 C 742.446 112 742 112.446 742 113 L 742 126 C 742 126.554 742.446 127 743 127 L 746 127 C 746.554 127 747 126.554 747 126 L 747 113 C 747 112.446 746.554 112 746 112 L 743 112 z M 752 112 C 751.446 112 751 112.446 751 113 L 751 126 C 751 126.554 751.446 127 752 127 L 755 127 C 755.554 127 756 126.554 756 126 L 756 113 C 756 112.446 755.554 112 755 112 L 752 112 z "
+           style="fill:#d4af37;fill-opacity:1" />
+        <path
+           d="m 694,159 h 56 l -7,9 h -42 z"
+           fill="#353c3e"
+           id="path10" />
+      </g>
+      <g
+         id="wan-rj45-1"
+         inkscape:label="GE0 0 1 RJ45">
+        <rect
+           x="670"
+           y="190"
+           width="104"
+           height="75"
+           rx="6"
+           fill="#687073"
+           id="rect11" />
+        <rect
+           x="678"
+           y="198"
+           width="88"
+           height="52"
+           rx="4"
+           fill="#202628"
+           id="rect12" />
+        <path
+           id="wan-rj45-1-pin-1"
+           d="M 689 203 C 688.446 203 688 203.446 688 204 L 688 217 C 688 217.554 688.446 218 689 218 L 692 218 C 692.554 218 693 217.554 693 217 L 693 204 C 693 203.446 692.554 203 692 203 L 689 203 z M 698 203 C 697.446 203 697 203.446 697 204 L 697 217 C 697 217.554 697.446 218 698 218 L 701 218 C 701.554 218 702 217.554 702 217 L 702 204 C 702 203.446 701.554 203 701 203 L 698 203 z M 707 203 C 706.446 203 706 203.446 706 204 L 706 217 C 706 217.554 706.446 218 707 218 L 710 218 C 710.554 218 711 217.554 711 217 L 711 204 C 711 203.446 710.554 203 710 203 L 707 203 z M 716 203 C 715.446 203 715 203.446 715 204 L 715 217 C 715 217.554 715.446 218 716 218 L 719 218 C 719.554 218 720 217.554 720 217 L 720 204 C 720 203.446 719.554 203 719 203 L 716 203 z M 725 203 C 724.446 203 724 203.446 724 204 L 724 217 C 724 217.554 724.446 218 725 218 L 728 218 C 728.554 218 729 217.554 729 217 L 729 204 C 729 203.446 728.554 203 728 203 L 725 203 z M 734 203 C 733.446 203 733 203.446 733 204 L 733 217 C 733 217.554 733.446 218 734 218 L 737 218 C 737.554 218 738 217.554 738 217 L 738 204 C 738 203.446 737.554 203 737 203 L 734 203 z M 743 203 C 742.446 203 742 203.446 742 204 L 742 217 C 742 217.554 742.446 218 743 218 L 746 218 C 746.554 218 747 217.554 747 217 L 747 204 C 747 203.446 746.554 203 746 203 L 743 203 z M 752 203 C 751.446 203 751 203.446 751 204 L 751 217 C 751 217.554 751.446 218 752 218 L 755 218 C 755.554 218 756 217.554 756 217 L 756 204 C 756 203.446 755.554 203 755 203 L 752 203 z "
+           style="fill:#d4af37;fill-opacity:1" />
+        <path
+           d="m 694,250 h 56 l -7,9 h -42 z"
+           fill="#353c3e"
+           id="path12" />
+      </g>
+      <rect
+         id="sfp-wan-panel"
+         x="815"
+         y="66"
+         width="155"
+         height="212"
+         rx="9"
+         fill="#b8bdbd"
+         stroke="#858c8e"
+         stroke-width="3" />
+      <rect
+         id="sfp-label-strip"
+         x="821"
+         y="72"
+         width="143"
+         height="20"
+         rx="4"
+         fill="#d4af37" />
+      <text
+         x="892"
+         y="86"
+         fill="#373d3f"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="10px"
+         font-weight="700"
+         text-anchor="middle"
+         id="text12"
+         inkscape:label="GE0/0/2 GE0/0/3 label">GE0/0/2 GE0/0/3</text>
+      <g
+         id="use77-6-5-5-3-5-9-8-0"
+         transform="matrix(1.402242,0,0,1.0652249,841.32865,99.161968)"
+         style="display:inline"
+         inkscape:label="GE0 0 2 SFP">
+        <rect
+           width="74"
+           height="70"
+           rx="4"
+           fill="#6b7274"
+           id="rect108-3-3-4-9-8-9"
+           x="0"
+           y="0" />
+        <rect
+           x="5"
+           y="6"
+           width="64"
+           height="44"
+           rx="3"
+           fill="#202628"
+           id="rect109-8-3-8-0-92-7" />
+        <rect
+           x="15"
+           y="12"
+           width="44"
+           height="6"
+           rx="3"
+           fill="#50595b"
+           id="rect110-8-8-1-8-8-5" />
+        <rect
+           x="8"
+           y="52"
+           width="58"
+           height="12"
+           rx="2"
+           fill="#d5d7d6"
+           id="rect111-3-6-2-1-8-9" />
+        <path
+           d="M 28,52 H 46 L 42,62 H 32 Z"
+           fill="#303638"
+           id="path111-1-0-8-3-8-7" />
+      </g>
+      <g
+         id="use77-6-5-5-3-8-6-7"
+         transform="matrix(-1.4050855,0,0,-1.0684786,944.9516,264.37985)"
+         inkscape:label="GE0 0 3 SFP"
+         style="display:inline">
+        <rect
+           width="74"
+           height="70"
+           rx="4"
+           fill="#6b7274"
+           id="rect108-3-3-29-9-8"
+           x="0"
+           y="0" />
+        <rect
+           x="5"
+           y="6"
+           width="64"
+           height="44"
+           rx="3"
+           fill="#202628"
+           id="rect109-8-3-9-4-8" />
+        <rect
+           x="15"
+           y="12"
+           width="44"
+           height="6"
+           rx="3"
+           fill="#50595b"
+           id="rect110-8-8-6-2-6" />
+        <rect
+           x="8"
+           y="52"
+           width="58"
+           height="12"
+           rx="2"
+           fill="#d5d7d6"
+           id="rect111-3-6-02-2-0" />
+        <path
+           d="M 28,52 H 46 L 42,62 H 32 Z"
+           fill="#303638"
+           id="path111-1-0-7-6-4" />
+      </g>
+    </g>
+    <g
+       id="layer-pim"
+       inkscape:groupmode="layer"
+       inkscape:label="LTE-PIM-module"
+       transform="translate(-18,-23)">
+      <rect
+         id="pim-panel"
+         x="1015"
+         y="78"
+         width="450"
+         height="164"
+         rx="8"
+         fill="#555a5d"
+         stroke="#353b3d"
+         stroke-width="5" />
+      <text
+         x="1038"
+         y="101"
+         fill="#e1e3e3"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700"
+         id="text20">LTE CAT18 PIM</text>
+      <g
+         id="pim-antenna-1">
+        <circle
+           cx="1110"
+           cy="158"
+           r="31"
+           fill="#d5d8d8"
+           stroke="#71787a"
+           stroke-width="5"
+           id="circle21" />
+        <circle
+           cx="1110"
+           cy="158"
+           r="14"
+           fill="#9ca3a5"
+           id="circle22" />
+        <path
+           d="m 1110,132 v 13.95"
+           stroke="#f3f4f4"
+           stroke-width="4"
+           stroke-linecap="round"
+           id="path22" />
+      </g>
+      <g
+         id="pim-antenna-2">
+        <circle
+           cx="1240"
+           cy="138"
+           r="23"
+           fill="#d5d8d8"
+           stroke="#71787a"
+           stroke-width="5"
+           id="circle23" />
+        <circle
+           cx="1240"
+           cy="138"
+           r="10"
+           fill="#9ca3a5"
+           id="circle24" />
+        <path
+           d="m 1240,120 v 10.35"
+           stroke="#f3f4f4"
+           stroke-width="4"
+           stroke-linecap="round"
+           id="path24" />
+      </g>
+      <g
+         id="pim-antenna-3">
+        <circle
+           cx="1375"
+           cy="158"
+           r="31"
+           fill="#d5d8d8"
+           stroke="#71787a"
+           stroke-width="5"
+           id="circle25" />
+        <circle
+           cx="1375"
+           cy="158"
+           r="14"
+           fill="#9ca3a5"
+           id="circle26" />
+        <path
+           d="m 1375,132 v 13.95"
+           stroke="#f3f4f4"
+           stroke-width="4"
+           stroke-linecap="round"
+           id="path26" />
+      </g>
+      <g
+         id="pim-usb-c"
+         inkscape:label="PIM USB C">
+        <rect
+           x="1204"
+           y="176"
+           width="72"
+           height="27"
+           rx="13"
+           fill="#1f2527"
+           id="rect26" />
+        <rect
+           x="1219"
+           y="185"
+           width="42"
+           height="8"
+           rx="4"
+           fill="#858d8f"
+           id="rect27" />
+      </g>
+      <circle
+         id="pim-led-1"
+         cx="1070"
+         cy="215"
+         r="5"
+         fill="#79a89d"
+         style="fill:#808080;fill-opacity:1" />
+      <circle
+         id="pim-led-2"
+         cx="1100"
+         cy="215"
+         r="5"
+         fill="#6b7375"
+         style="fill:#808080;fill-opacity:1" />
+      <circle
+         id="pim-led-3"
+         cx="1340"
+         cy="215"
+         r="5"
+         fill="#6b7375"
+         style="fill:#808080;fill-opacity:1" />
+      <circle
+         id="pim-led-4"
+         cx="1400"
+         cy="215"
+         r="4"
+         fill="#79a89d"
+         style="stroke-width:0.8;fill:#808080;fill-opacity:1" />
+    </g>
+    <g
+       id="layer-nim"
+       inkscape:groupmode="layer"
+       inkscape:label="NIM-bay"
+       style="display:inline"
+       transform="translate(-18,-23)">
+      <rect
+         id="nim-panel"
+         x="1515"
+         y="49"
+         width="610"
+         height="203"
+         rx="12"
+         fill="#d9dbda"
+         stroke="#a1a6a7"
+         stroke-width="4" />
+      <text
+         x="1540"
+         y="75"
+         fill="#4d5557"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="11px"
+         font-weight="700"
+         id="text28">NIM-PVDM-32</text>
+      <g
+         id="nim-screw-left">
+        <circle
+           cx="1548"
+           cy="152"
+           r="12"
+           fill="#a7adaf"
+           stroke="#656d70"
+           stroke-width="3"
+           id="circle28" />
+        <path
+           d="m 1542,146 12,12 m 0,-12 -12,12"
+           stroke="#e1e3e4"
+           stroke-width="2"
+           id="path28" />
+      </g>
+      <g
+         id="nim-screw-right">
+        <circle
+           cx="2092"
+           cy="152"
+           r="12"
+           fill="#a7adaf"
+           stroke="#656d70"
+           stroke-width="3"
+           id="circle29" />
+        <path
+           d="m 2086,146 12,12 m 0,-12 -12,12"
+           stroke="#e1e3e4"
+           stroke-width="2"
+           id="path29" />
+      </g>
+      <path
+         id="nim-bottom-1-1"
+         d="m 1635,170 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m -266,23 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m -294,23 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z"
+         style="fill:#61686b;fill-opacity:1"
+         inkscape:label="nim-bottom" />
+      <path
+         id="nim-top-1-1"
+         d="m 1635,71 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m -266,23 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m -294,23 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 28,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z"
+         style="fill:#61686b;fill-opacity:1"
+         inkscape:label="nim-top" />
+    </g>
+    <g
+       id="layer-lower-vents"
+       inkscape:groupmode="layer"
+       inkscape:label="Lower-ventilation"
+       transform="translate(-18,-23)"
+       style="display:inline">
+      <path
+         id="lower-vent-1-1"
+         d="m 1018,272 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m 30,0 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z"
+         style="fill:#61686b;fill-opacity:1"
+         inkscape:label="nim-bottom" />
+    </g>
+    <g
+       id="layer-storage-lock"
+       inkscape:groupmode="layer"
+       inkscape:label="Storage-RFID-lock"
+       transform="translate(-18,-23)">
+      <text
+         x="2185"
+         y="84"
+         fill="#666d6f"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="11px"
+         font-weight="700"
+         id="text30">M.2 USB NVMe STORAGE</text>
+      <path
+         id="storage-seam"
+         d="m 2175,226 h 645"
+         stroke="#b6babb"
+         stroke-width="3" />
+      <rect
+         id="kensington-slot"
+         x="2818"
+         y="67"
+         width="48"
+         height="17"
+         rx="7"
+         fill="#22282a" />
+      <path
+         id="lock-icon"
+         d="m 2882,71 v -7 a 8,8 0 0 1 16,0 v 7 m -19,0 h 22 v 21 h -22 z"
+         fill="none"
+         stroke="#4d5557"
+         stroke-width="3" />
+      <text
+         id="rfid-label"
+         x="2860"
+         y="236"
+         fill="#8a9091"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700">RFID</text>
+    </g>
+  </g>
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>OSIRIS JSON Cisco Catalyst C8200L-1N-4T front chassis</dc:title>
+        <dc:date>2026-10-25</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Tia Zanella - https://skhell.com</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>https://osirisjson.org/en</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>https://osirisjson.org/en</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://osirisjson.org/en</dc:identifier>
+        <dc:source>https://osirisjson.org/en</dc:source>
+        <dc:description>OSIRIS JSON Cisco Catalyst C8200L-1N-4T front chassis</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
