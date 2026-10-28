@@ -1,4 +1,4 @@
-// Tests for the Phase 0 CLI skeleton: the version and help verbs, the
+// Tests for the CLI skeleton: the version and help verbs, the
 // no-command case, and unknown commands. These lock the exit-code
 // contract (0 success, 2 usage) before the capability verbs are added.
 package main
@@ -43,9 +43,15 @@ func TestRun(t *testing.T) {
 		},
 		{
 			name:       "unknown command",
+			args:       []string{"bogus"},
+			wantCode:   2,
+			wantStderr: `unknown command "bogus"`,
+		},
+		{
+			name:       "report without input",
 			args:       []string{"report"},
 			wantCode:   2,
-			wantStderr: `unknown command "report"`,
+			wantStderr: "expected exactly one INPUT argument",
 		},
 	}
 
