@@ -1,105 +1,101 @@
-# OSIRIS JSON Consumers
+# The OSIRIS JSON Consumers
 
-Consumers for OSIRIS JSON: a CLI tool and Go packages that read a
-canonically validated OSIRIS JSON 1.x document and turn it into
-deterministic, vendor-neutral output a human can use:
+[![GitHub License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/osirisjson/osiris-consumers/blob/main/LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/go.osirisjson.org/consumers.svg)](https://pkg.go.dev/go.osirisjson.org/consumers)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=osirisjson_osiris-consumers&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=osirisjson_osiris-consumers)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=osirisjson_osiris-consumers&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=osirisjson_osiris-consumers)
 
-- Infrastructure report
-- Diff view and diff report comparing infrastructure snapshots
-- Autogenerate topology in draw.io
+[OSIRIS JSON](https://github.com/osirisjson/osiris) is an Open
+Specification for Infrastructure Resource Interchange Schema that
+defines a vendor-neutral JSON format for describing infrastructure
+resources, their properties and their topological relationships across
+heterogeneous IT and OT environments.
 
-## What OSIRIS JSON is
+An [OSIRIS JSON Producer](https://github.com/osirisjson/osiris-producers)
+connects to a vendor applicance or platform and emits a vendor-neutral
+portable OSIRIS JSON document.
+OSIRIS JSON Consumers (this repository) read that document and generate:
 
-OSIRIS JSON is an open specification for an infrastructure resource
-interchange schema. A producer connects to vendor infrastructure and
-emits a portable OSIRIS JSON document. That document is validated
-against the canonical schema and rules. OSIRIS JSON Consumers takes the
-validated OSIRIS JSON document and produces something useful from it.
+1. a Markdown/PDF brief and inventory that represents every resource,
+   connection, group, provider, and unknown type in the document without
+   semantic loss with a companion XLSX file if reports generate tables
+   over 50 rows.
+2. a draw.io topology that represents the complete graph with generic
+   fallback nodes and literal edges.
 
-The specification, schema, and validation rules live in the
-authoritative OSIRIS JSON repository:
-https://github.com/osirisjson/osiris
+### Architecture workflow
 
-This repository consumes that contract. It MUST NOT define or
-re-implement it.
+```mermaid
+flowchart TD 
+    subgraph VP ["Vendor / Platform"]
+        A["Hyperscalers, Cloud & Hosting Providers"]
+        B["On-Premises<br/>IT and OT"]
+    end
+    
+    subgraph SP ["The OSIRIS JSON Specification"]
+        S["The authoritative<br/>source of truth for the<br/>specification and core schema"]
+    end
+    
+    subgraph PR ["The OSIRIS JSON Producers"]
+        P["Discover, Normalize, Redact, Emit"]
+        J["OSIRIS JSON Document<br/>Portable point-in-time infrastructure snapshot"]
+    end
+    
+    subgraph VA ["The OSIRIS JSON Toolbox"]
+        V["Validation toolbox<br/>Three-level validation"]
+    end
+    
+    subgraph OC ["The OSIRIS JSON Consumers (This Repository)"]
+        C["Read OSIRIS JSON documents"]
+        AD["Architecture documentation reports"]
+        AU["Audit reports"]
+        DF["Snapshot diff view"]
+        TP["Automatic topology<br/>generation and updates"]
+    end
+    
+    subgraph UC ["Under Your Full Control"]
+        U["One OSIRIS JSON file<br/>Multiple use cases"]
+        M["CMDB / IPAM / DCIM workflows"]
+        AI["AI platforms, agents<br/>and MCP servers"]
+        X["Custom analytics<br/>and third-party tools"]
+    end
+    
+    A -->|"Discovered by"| P
+    B -->|"Discovered by"| P
 
-## What this repository does (MVP scope)
+    S -. "Defines the format" .-> J
+    S -. "Guides implementation" .-> P
 
-The `v0.1.0` MVP is exactly two capabilities, both vendor-neutral:
+    P -->|"Generates"| J
 
-1. `report` - a Markdown brief and inventory that represents every
-   resource, connection, group, provider, and unknown type in the
-   document without semantic loss.
-2. `topology` - a draw.io topology that represents the complete graph
-   with generic fallback nodes and literal edges.
+    J -->|"Validated by"| V
 
-Generic processing is the default and the only path in the MVP. A valid
-OSIRIS JSON 1.x document with no recognized provider still produces full
-output. Mixed-provider documents are processed resource by resource.
+    J -->|"Consumed by"| C
+    C -->|"Generates"| AD
+    C -->|"Generates"| AU
+    C -->|"Generates"| DF
+    C -->|"Generates"| TP
 
-## What this repository does not do
-
-- It does not validate OSIRIS JSON. Validation is canonical and
-  external (the OSIRIS JSON toolbox). A capability only runs against a
-  document that already has a successful validation result for the
-  exact input bytes.
-- It does not merge, diff, or re-emit OSIRIS JSON documents in the MVP.
-- It does not produce compliance verdicts, maturity grades, or
-  architecture-quality scores. Provider enrichment, when it exists, uses
-  evidence-state language only (observed/absent/unknown/not-applicable).
-- It does not ship provider-specific behavior in the MVP. Provider
-  enrichment (Azure first) is optional and post-MVP, and never a gate
-  to producing useful output.
-
-## Support matrix
-
-| Item | MVP target |
-|---|---|
-| OSIRIS JSON version | 1.x (`1.0.x` and later `1.x.y`); unknown fields, types, and extensions are preserved, not rejected |
-| Input | one complete JSON document, read with a configurable size bound; a trailing second value is rejected |
-| Capabilities | `report` (Markdown), `topology` (draw.io) |
-| Providers | generic only; no provider selector; enrichment is post-MVP |
-| Output | to a file or stdout, created private and finalized atomically; existing output refused without `--force` |
-| Platforms | Linux, Windows, macOS |
-| Determinism | stable input plus stable options plus stable tool versions yields byte-identical output |
-
-## Build, test, run
-
-Requires the Go toolchain version pinned in `go.mod`.
-
+    J --> U
+    U --> M
+    U --> AI
+    U --> X
+    
+    style VP fill:transparent,stroke:#555,stroke-width:1px,color:inherit
+    style SP fill:transparent,stroke:#555,stroke-width:1px,color:inherit
+    style PR fill:transparent,stroke:#555,stroke-width:2px,color:inherit
+    style VA fill:transparent,stroke:#555,stroke-width:1px,color:inherit
+    style OC fill:transparent,stroke:#4F7FE7,stroke-width:1px,color:inherit
+    style UC fill:transparent,stroke:#555,stroke-width:1px,color:inherit
 ```
-go vet ./...
-go build ./...
-go test ./...
-```
 
-Build the CLI:
+### Installation
 
-```
-go build -o osirisjson-consumer ./cmd/osirisjson-consumer ./osirisjson-consumer version ./osirisjson-consumer help
-```
+See the official guidelines available on [docs.osirisjson.org/osiris-consumers/installation](https://docs.osirisjson.org/osiris-consumers/installation/)
 
-Planned CLI once capabilities land:
-
-```
-osirisjson-consumer report   INPUT [-o FILE|-] [--validation-profile default] [--force]
-osirisjson-consumer topology INPUT [-o FILE|-] [--force]
-osirisjson-consumer version
-osirisjson-consumer help
-```
-
-Exit codes: `0` success, `1` canonical validation errors, `2` usage or
-operational failure.
-
-## Security and sensitive data
-
-Treat every OSIRIS JSON input document as sensitive and every string in
-it as untrusted. Documents can carry topology, naming, account,
-address, and security-policy data. The consumer persists no copy of an
-input document outside the requested output by default, never logs a
-raw document value, and never echoes a credential-like string.
-
-## Contributing
+### Documentation and contribution
 
 See `CONTRIBUTING.md`. Contributions target the `dev` branch as small,
 reviewable increments. `main` carries tagged releases only.
+
+- [Community & contribution guidelines](https://docs.osirisjson.org/community/contributing/)
