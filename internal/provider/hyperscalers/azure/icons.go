@@ -16,11 +16,7 @@
 // guessed), scaled so it never stretches: draw.io's shape=image with
 // imageAspect=0 stretches the icon to fill whatever cell geometry it is
 // given, so a cell whose aspect ratio does not match the icon's own
-// distorts it. Every other mapped icon here renders close enough to
-// square at 40x40 / 18x18 that the user's own reviewed mockup kept it
-// square rather than applying a continuous per-icon aspect formula;
-// this table matches that reviewed decision exactly rather than a
-// computed approximation.
+// distorts it.
 package azure
 
 // azureIconBase is the draw.io bundled-library root every icon path is
