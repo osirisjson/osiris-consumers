@@ -167,8 +167,8 @@ func TestUnsupportedMajorResultCarriesReceipt(t *testing.T) {
 		}},
 	}
 	res, err := GenerateReport(context.Background(), req)
-	if !errors.Is(err, ErrUnsupportedOSIRIS) {
-		t.Fatalf("err = %v, want ErrUnsupportedOSIRIS", err)
+	if !errors.Is(err, ErrUnsupportedOSIRISJSON) {
+		t.Fatalf("err = %v, want ErrUnsupportedOSIRISJSON", err)
 	}
 	if res.InputSHA256 == "" || len(res.Validation.Diagnostics) != 1 {
 		t.Errorf("unsupported-major Result should still carry the receipt: %+v", res)
@@ -281,8 +281,8 @@ func TestUnsupportedMajorRejectedWithExitOne(t *testing.T) {
 		Options: Options{Validator: fakeValidator{}},
 	}
 	_, err := GenerateReport(context.Background(), req)
-	if !errors.Is(err, ErrUnsupportedOSIRIS) {
-		t.Fatalf("err = %v, want ErrUnsupportedOSIRIS", err)
+	if !errors.Is(err, ErrUnsupportedOSIRISJSON) {
+		t.Fatalf("err = %v, want ErrUnsupportedOSIRISJSON", err)
 	}
 	if ExitCode(err) != 1 {
 		t.Errorf("ExitCode = %d, want 1", ExitCode(err))

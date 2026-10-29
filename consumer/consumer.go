@@ -174,8 +174,8 @@ func (s Stage) String() string {
 // A Result is the structured outcome of a capability run. It is
 // populated as far as the run got: on ErrNotImplemented it carries the
 // hash, receipt, warnings, and graph anomalies; on ErrValidationFailed
-// or ErrUnsupportedOSIRIS it still carries the hash and the receipt so
-// an adapter can surface the verbatim canonical diagnostics. On a
+// or ErrUnsupportedOSIRISJSON it still carries the hash and the receipt
+// so an adapter can surface the verbatim canonical diagnostics. On a
 // malformed-input or no-receipt failure it is the zero value.
 type Result struct {
 	// InputSHA256 is the lower-case hex SHA-256 of the exact document
@@ -281,9 +281,9 @@ var (
 	// ErrValidationFailed means the receipt reports canonical
 	// validation errors. Maps to exit code 1.
 	ErrValidationFailed = errors.New("Document failed canonical validation")
-	// ErrUnsupportedOSIRIS means the document declares an OSIRIS JSON
+	// ErrUnsupportedOSIRISJSON means the document declares an OSIRIS JSON
 	// major version this build does not consume. Maps to exit code 1.
-	ErrUnsupportedOSIRIS = errors.New("Unsupported OSIRIS JSON major version")
+	ErrUnsupportedOSIRISJSON = errors.New("Unsupported OSIRIS JSON major version")
 	// ErrReceiptMismatch means the receipt does not describe these
 	// bytes, or is incomplete. Maps to exit code 2.
 	ErrReceiptMismatch = errors.New("Validation receipt does not match the input")
@@ -306,7 +306,7 @@ func ExitCode(err error) int {
 	case err == nil:
 		return 0
 	case errors.Is(err, ErrValidationFailed),
-		errors.Is(err, ErrUnsupportedOSIRIS),
+		errors.Is(err, ErrUnsupportedOSIRISJSON),
 		errors.Is(err, validation.ErrReceiptHasErrors),
 		errors.Is(err, document.ErrUnsupportedMajor):
 		return 1
