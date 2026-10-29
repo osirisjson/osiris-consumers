@@ -79,7 +79,9 @@ func TestRenderWellFormedAndFramed(t *testing.T) {
 
 func TestRenderIsByteIdentical(t *testing.T) {
 	doc, g, m := loadFixture(t, azureFixture)
-	if renderXML(t, doc, g, m, fixedTime) != renderXML(t, doc, g, m, fixedTime) {
+	first := renderXML(t, doc, g, m, fixedTime)
+	second := renderXML(t, doc, g, m, fixedTime)
+	if first != second {
 		t.Fatal("two renders of the same model differ")
 	}
 }

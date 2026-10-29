@@ -86,7 +86,9 @@ func TestRenderWellFormedAndFramed(t *testing.T) {
 
 func TestRenderIsByteIdentical(t *testing.T) {
 	m := model(t, "valid/mixed-provider.json")
-	if renderXML(t, m, fixedTime) != renderXML(t, m, fixedTime) {
+	first := renderXML(t, m, fixedTime)
+	second := renderXML(t, m, fixedTime)
+	if first != second {
 		t.Fatal("two renders of the same model differ")
 	}
 }

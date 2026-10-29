@@ -262,6 +262,7 @@ func TestWriteHonoursCancelledContext(t *testing.T) {
 func TestWriteCancelDuringProduceLeavesNothing(t *testing.T) {
 	dir := t.TempDir()
 	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
 	_, err := Write(ctx, baseReq(dir, "out.md"), func(w io.Writer) error {
 		_, _ = io.WriteString(w, "half")
 		cancel()
