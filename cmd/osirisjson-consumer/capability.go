@@ -278,7 +278,7 @@ func readInput(arg string) ([]byte, error) {
 // canonical-validation failure it prints every engine diagnostic
 // verbatim, in engine order.
 func reportError(stderr io.Writer, name string, res consumer.Result, err error) {
-	if errors.Is(err, consumer.ErrValidationFailed) || errors.Is(err, consumer.ErrUnsupportedOSIRIS) {
+	if errors.Is(err, consumer.ErrValidationFailed) || errors.Is(err, consumer.ErrUnsupportedOSIRISJSON) {
 		fmt.Fprintf(stderr, "osirisjson-consumer %s: document failed canonical validation\n", name)
 		for _, d := range res.Validation.Diagnostics {
 			line := d.Code
