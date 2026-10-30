@@ -132,6 +132,10 @@ func runCapability(name string, args []string, stdout, stderr io.Writer) int {
 		}
 	}
 
+	// start times the whole run as the operator experiences it: input
+	// read, canonical validation, rendering, and finalization. It feeds
+	// only the stderr summary, never an artifact.
+	start := time.Now()
 	input, err := readInput(inputArg)
 	if err != nil {
 		fmt.Fprintf(stderr, "osirisjson-consumer %s: %v\n", name, err)
@@ -242,10 +246,11 @@ func runCapability(name string, args []string, stdout, stderr io.Writer) int {
 			return 2
 		}
 	case !*quiet && !toStdout:
-		fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s (%d bytes, sha256 %s)\n",
-			name, destPath, manifest.Bytes, manifest.ArtifactSHA256)
+		fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s (%s, %s, sha256 %s)\n",
+			name, destPath, formatElapsed(time.Since(start)), formatSize(manifest.Bytes), manifest.ArtifactSHA256)
 	case !*quiet && toStdout && *verbose:
-		fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %d bytes to standard output\n", name, res.Artifact.Bytes)
+		fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s to standard output (%s)\n",
+			name, formatSize(res.Artifact.Bytes), formatElapsed(time.Since(start)))
 	}
 	// The companion is its own file-system side effect regardless of
 	// whether the primary artifact went to stdout or was reported at
@@ -255,10 +260,39 @@ func runCapability(name string, args []string, stdout, stderr io.Writer) int {
 	// still suppresses it, and --format json already carries it in the
 	// envelope instead.
 	if *format != "json" && !*quiet && xlsxManifest.Path != "" {
-		fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s (%d bytes, sha256 %s)\n",
-			name, xlsxManifest.Path, xlsxManifest.Bytes, xlsxManifest.ArtifactSHA256)
+		fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s (%s, sha256 %s)\n",
+			name, xlsxManifest.Path, formatSize(xlsxManifest.Bytes), xlsxManifest.ArtifactSHA256)
 	}
 	return 0
+}
+
+// formatSize renders n bytes for the human-readable stderr summary:
+// plain bytes below 1 KB, otherwise one decimal in KB, MB, or GB, where
+// 1 KB is 1024 bytes. The exact count stays in the --format json
+// envelope.
+func formatSize(n int64) string {
+	const unit = 1024
+	if n < unit {
+		return fmt.Sprintf("%d B", n)
+	}
+	v := float64(n)
+	for _, u := range []string{"KB", "MB"} {
+		v /= unit
+		if v < unit {
+			return fmt.Sprintf("%.1f %s", v, u)
+		}
+	}
+	return fmt.Sprintf("%.1f GB", v/unit)
+}
+
+// formatElapsed renders d for the human-readable stderr summary:
+// milliseconds with two decimals below one second, otherwise seconds
+// with two decimals.
+func formatElapsed(d time.Duration) string {
+	if d < time.Second {
+		return fmt.Sprintf("%.2fms", float64(d)/float64(time.Millisecond))
+	}
+	return fmt.Sprintf("%.2fs", d.Seconds())
 }
 
 // readInput returns the bytes of arg, which is a file path or "-" for

@@ -13,6 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+	"time"
 )
 
 func requireEngine(t *testing.T) {
@@ -331,5 +332,41 @@ func TestReportJSONEnvelopeOmitsXLSXArtifactWhenNoCompanion(t *testing.T) {
 	}
 	if strings.Contains(out.String(), "xlsx_artifact") {
 		t.Errorf("envelope should omit xlsx_artifact entirely when no companion was written: %s", out.String())
+	}
+}
+
+func TestFormatSize(t *testing.T) {
+	tests := []struct {
+		n    int64
+		want string
+	}{
+		{0, "0 B"},
+		{1023, "1023 B"},
+		{1024, "1.0 KB"},
+		{6047, "5.9 KB"},
+		{5 * 1024 * 1024, "5.0 MB"},
+		{3 * 1024 * 1024 * 1024, "3.0 GB"},
+	}
+	for _, tt := range tests {
+		if got := formatSize(tt.n); got != tt.want {
+			t.Errorf("formatSize(%d) = %q, want %q", tt.n, got, tt.want)
+		}
+	}
+}
+
+func TestFormatElapsed(t *testing.T) {
+	tests := []struct {
+		d    time.Duration
+		want string
+	}{
+		{30 * time.Microsecond, "0.03ms"},
+		{312450 * time.Microsecond, "312.45ms"},
+		{time.Second, "1.00s"},
+		{1234 * time.Millisecond, "1.23s"},
+	}
+	for _, tt := range tests {
+		if got := formatElapsed(tt.d); got != tt.want {
+			t.Errorf("formatElapsed(%v) = %q, want %q", tt.d, got, tt.want)
+		}
 	}
 }

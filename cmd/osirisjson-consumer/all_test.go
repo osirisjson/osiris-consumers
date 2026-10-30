@@ -14,6 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+	"time"
+
+	"go.osirisjson.org/consumers/consumer"
 )
 
 func TestReportAllWritesEveryArtifact(t *testing.T) {
@@ -166,5 +169,46 @@ func TestAllStem(t *testing.T) {
 		if got := allStem(tt.in); got != tt.want {
 			t.Errorf("allStem(%q) = %q, want %q", tt.in, got, tt.want)
 		}
+	}
+}
+
+// TestRenderTimerAttributesPerArtifact feeds the GenerateAll event
+// sequence at fixed instants and checks the shared preparation span and
+// each artifact's own rendering span.
+func TestRenderTimerAttributesPerArtifact(t *testing.T) {
+	t0 := time.Date(2026, 1, 1, 0, 0, 0, 0, time.UTC)
+	at := func(ms int) time.Time { return t0.Add(time.Duration(ms) * time.Millisecond) }
+	timer := newRenderTimer(t0)
+	events := []struct {
+		ms int
+		p  consumer.Progress
+	}{
+		{0, consumer.Progress{Stage: consumer.StageValidating}},
+		{400, consumer.Progress{Stage: consumer.StageOpening}},
+		{450, consumer.Progress{Stage: consumer.StageIndexing}},
+		{500, consumer.Progress{Stage: consumer.StageRendering, Artifact: "markdown"}},
+		{520, consumer.Progress{Stage: consumer.StageRendering, Artifact: "pdf"}},
+		{600, consumer.Progress{Stage: consumer.StageRendering, Artifact: "topology"}},
+		{610, consumer.Progress{Stage: consumer.StageRendering, Artifact: "topology"}},
+		{630, consumer.Progress{Stage: consumer.StageFinalizing}},
+	}
+	for _, e := range events {
+		timer.observe(e.p, at(e.ms))
+	}
+	if timer.prepared != 500*time.Millisecond {
+		t.Errorf("prepared = %v, want 500ms", timer.prepared)
+	}
+	want := map[string]time.Duration{
+		"markdown": 20 * time.Millisecond,
+		"pdf":      80 * time.Millisecond,
+		"topology": 30 * time.Millisecond,
+	}
+	for kind, d := range want {
+		if got := timer.rendering[kind]; got != d {
+			t.Errorf("rendering[%s] = %v, want %v", kind, got, d)
+		}
+	}
+	if _, ok := timer.rendering["xlsx"]; ok {
+		t.Error("xlsx renders inside the markdown span and must have no entry of its own")
 	}
 }

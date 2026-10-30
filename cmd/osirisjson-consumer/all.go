@@ -43,12 +43,15 @@ type allOptions struct {
 }
 
 // allArtifact is one file of the --all set: its kind, its final name
-// in the output directory, and the in-memory buffer it is rendered to
-// before finalization.
+// in the output directory, the in-memory buffer it is rendered to
+// before finalization, and the consumer.Progress Artifact name whose
+// rendering span it is timed by (empty for the .xlsx companion, which
+// renders inside the Markdown span).
 type allArtifact struct {
 	kind string
 	name string
 	buf  *bytes.Buffer
+	span string
 }
 
 // allStem returns the artifact base name for inputArg: the input file's
@@ -72,10 +75,10 @@ func allStem(inputArg string) string {
 func runAll(name, inputArg string, opts allOptions, stdout, stderr io.Writer) int {
 	stem := allStem(inputArg)
 	arts := []allArtifact{
-		{kind: "markdown", name: stem + ".md", buf: &bytes.Buffer{}},
+		{kind: "markdown", name: stem + ".md", buf: &bytes.Buffer{}, span: "markdown"},
 		{kind: "xlsx", name: stem + ".xlsx", buf: &bytes.Buffer{}},
-		{kind: "pdf", name: stem + ".pdf", buf: &bytes.Buffer{}},
-		{kind: "drawio", name: stem + ".drawio", buf: &bytes.Buffer{}},
+		{kind: "pdf", name: stem + ".pdf", buf: &bytes.Buffer{}, span: "pdf"},
+		{kind: "drawio", name: stem + ".drawio", buf: &bytes.Buffer{}, span: "topology"},
 	}
 
 	fi, err := os.Stat(opts.outDir)
@@ -90,6 +93,8 @@ func runAll(name, inputArg string, opts allOptions, stdout, stderr io.Writer) in
 		}
 	}
 
+	// start times the run for the stderr summary only; see runCapability.
+	start := time.Now()
 	input, err := readInput(inputArg)
 	if err != nil {
 		fmt.Fprintf(stderr, "osirisjson-consumer %s: %v\n", name, err)
@@ -110,8 +115,13 @@ func runAll(name, inputArg string, opts allOptions, stdout, stderr io.Writer) in
 			XLSXCompanionName: arts[1].name,
 		},
 	}
-	if opts.verbose {
-		req.Progress = func(p consumer.Progress) {
+	// The progress sink is always installed so the CLI can time each
+	// artifact's own rendering from the facade's per-artifact events;
+	// it prints only with --verbose.
+	timer := newRenderTimer(start)
+	req.Progress = func(p consumer.Progress) {
+		timer.observe(p, time.Now())
+		if opts.verbose {
 			fmt.Fprintf(stderr, "osirisjson-consumer %s: [%s] %s\n", name, p.Stage, p.Message)
 		}
 	}
@@ -127,10 +137,12 @@ func runAll(name, inputArg string, opts allOptions, stdout, stderr io.Writer) in
 	inputSHA := hex.EncodeToString(sum[:])
 	var written []artifact.Manifest
 	var kinds []string
+	var elapsed []time.Duration
 	for _, a := range arts {
 		if a.buf.Len() == 0 {
 			continue
 		}
+		writeStart := time.Now()
 		m, err := artifact.Write(ctx, artifact.Request{
 			Dir:             opts.outDir,
 			Name:            a.name,
@@ -154,6 +166,7 @@ func runAll(name, inputArg string, opts allOptions, stdout, stderr io.Writer) in
 		}
 		written = append(written, m)
 		kinds = append(kinds, a.kind)
+		elapsed = append(elapsed, timer.rendering[a.span]+time.Since(writeStart))
 	}
 
 	switch {
@@ -163,12 +176,51 @@ func runAll(name, inputArg string, opts allOptions, stdout, stderr io.Writer) in
 			return 2
 		}
 	case !opts.quiet:
-		for _, m := range written {
-			fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s (%d bytes, sha256 %s)\n",
-				name, m.Path, m.Bytes, m.ArtifactSHA256)
+		fmt.Fprintf(stderr, "osirisjson-consumer %s: validated and indexed %s in %s\n",
+			name, inputArg, formatElapsed(timer.prepared))
+		for i, m := range written {
+			fmt.Fprintf(stderr, "osirisjson-consumer %s: wrote %s (%s, %s, sha256 %s)\n",
+				name, m.Path, formatElapsed(elapsed[i]), formatSize(m.Bytes), m.ArtifactSHA256)
 		}
 	}
 	return 0
+}
+
+// renderTimer attributes wall-clock time to the phases of one
+// GenerateAll run from the facade's progress events, which arrive
+// synchronously in order. The clock is read by the caller, here in the
+// CLI adapter, never inside the facade or a renderer.
+type renderTimer struct {
+	start time.Time
+	// prepared is the shared time from start (input read) to the first
+	// rendering event: canonical validation, receipt check, parse, and
+	// graph index.
+	prepared time.Duration
+	// rendering is each artifact kind's own render time, from its first
+	// rendering event to the next event for a different artifact or the
+	// finalizing event. The .xlsx companion renders inside the
+	// "markdown" span and has no entry of its own.
+	rendering map[string]time.Duration
+	cur       string
+	curStart  time.Time
+}
+
+func newRenderTimer(start time.Time) *renderTimer {
+	return &renderTimer{start: start, rendering: map[string]time.Duration{}}
+}
+
+// observe records the event p seen at time now.
+func (t *renderTimer) observe(p consumer.Progress, now time.Time) {
+	if p.Stage >= consumer.StageRendering && t.prepared == 0 {
+		t.prepared = now.Sub(t.start)
+	}
+	if t.cur != "" && p.Artifact != t.cur {
+		t.rendering[t.cur] += now.Sub(t.curStart)
+		t.cur = ""
+	}
+	if p.Artifact != "" && p.Artifact != t.cur {
+		t.cur, t.curStart = p.Artifact, now
+	}
 }
 
 // checkDestination refuses a destination internal/artifact would refuse
