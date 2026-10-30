@@ -128,7 +128,7 @@ func GenerateAll(ctx context.Context, req AllRequest) (AllResult, error) {
 	}
 
 	if req.Markdown != nil {
-		emit(req.Progress, StageRendering, "rendering the report artifact (markdown)")
+		emitRendering(req.Progress, "markdown", "rendering the report artifact (markdown)")
 		opts := req.Options
 		opts.OutputFormat = "markdown"
 		out.Markdown, out.XLSX, err = renderReport(ctx, req.Markdown, req.XLSX, view.doc, g, res.Validation, opts)
@@ -137,7 +137,7 @@ func GenerateAll(ctx context.Context, req AllRequest) (AllResult, error) {
 		}
 	}
 	if req.PDF != nil {
-		emit(req.Progress, StageRendering, "rendering the report artifact (pdf)")
+		emitRendering(req.Progress, "pdf", "rendering the report artifact (pdf)")
 		opts := req.Options
 		opts.OutputFormat = "pdf"
 		out.PDF, _, err = renderReport(ctx, req.PDF, nil, view.doc, g, res.Validation, opts)
@@ -146,13 +146,13 @@ func GenerateAll(ctx context.Context, req AllRequest) (AllResult, error) {
 		}
 	}
 	if req.Topology != nil {
-		emit(req.Progress, StageRendering, "rendering the topology artifact")
+		emitRendering(req.Progress, "topology", "rendering the topology artifact")
 		out.Topology, err = renderTopology(ctx, req.Topology, view.doc, g, req.Options)
 		if err != nil {
 			return out, fmt.Errorf("topology: %w", err)
 		}
 		if out.Topology.PageFormat == "custom" {
-			emit(req.Progress, StageRendering, fmt.Sprintf(
+			emitRendering(req.Progress, "topology", fmt.Sprintf(
 				"topology exceeds ISO A0 page size; rendered on a custom %dx%d page; no nodes, edges, or groups omitted",
 				out.Topology.PageWidth, out.Topology.PageHeight))
 		}

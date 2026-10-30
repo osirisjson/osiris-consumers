@@ -137,8 +137,9 @@ type Options struct {
 // Progress is one bounded progress event. It carries no percentage and
 // no document content.
 type Progress struct {
-	Stage   Stage
-	Message string
+	Stage    Stage
+	Message  string
+	Artifact string
 }
 
 // Stage names a step of a capability run.
@@ -319,6 +320,14 @@ func ExitCode(err error) int {
 func emit(sink func(Progress), stage Stage, msg string) {
 	if sink != nil {
 		sink(Progress{Stage: stage, Message: msg})
+	}
+}
+
+// emitRendering delivers one StageRendering event for the named
+// artifact when a sink is present.
+func emitRendering(sink func(Progress), artifact, msg string) {
+	if sink != nil {
+		sink(Progress{Stage: StageRendering, Message: msg, Artifact: artifact})
 	}
 }
 
