@@ -28,10 +28,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="3.1046702"
-     inkscape:cx="62.164414"
-     inkscape:cy="28.0223"
-     inkscape:window-width="1130"
-     inkscape:window-height="1269"
+     inkscape:cx="62.486508"
+     inkscape:cy="27.861252"
+     inkscape:window-width="1078"
+     inkscape:window-height="1190"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -177,7 +177,7 @@
   <g
      id="use39"
      transform="matrix(0.66969541,0,0,1.1386894,0.33350459,0.53994378)"
-     inkscape:label="RJ45">
+     inkscape:label="RJ45-00">
     <rect
        width="110"
        height="61"
@@ -185,79 +185,83 @@
        fill="#697174"
        id="rect31"
        x="0"
-       y="0" />
-    <rect
-       x="7"
-       y="7"
-       width="96"
-       height="45"
-       rx="3"
-       fill="#202628"
-       id="rect32" />
+       y="0"
+       inkscape:label="port-bg" />
+    <path
+       id="rect32"
+       d="M 10.001182 7.0008336 C 8.3391816 7.0008336 7.0001671 8.3387874 7.0001671 10.000787 L 7.0001671 49.000187 C 7.0001671 50.662187 8.3391816 52.000141 10.001182 52.000141 L 28.001436 52.000141 L 35.000886 59.000033 L 74.999831 59.000033 L 81.999281 52.000141 L 99.999535 52.000141 C 101.66154 52.000141 103.00055 50.662187 103.00055 49.000187 L 103.00055 10.000787 C 103.00055 8.3387874 101.66154 7.0008336 99.999535 7.0008336 L 10.001182 7.0008336 z "
+       style="fill:#282e30;fill-opacity:1"
+       inkscape:label="port-00-cage" />
     <g
        fill="#d4af37"
-       id="g40">
+       id="g40"
+       inkscape:label="port-00-data-connector-pins"
+       transform="translate(2)">
       <rect
          x="15"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect33" />
+         id="rect33"
+         inkscape:label="port-00-data-connector-pin1" />
       <rect
          x="25"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect34" />
+         id="rect34"
+         inkscape:label="port-00-data-connector-pin2" />
       <rect
          x="35"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect35" />
+         id="rect35"
+         inkscape:label="port-00-data-connector-pin3" />
       <rect
          x="45"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect36" />
+         id="rect36"
+         inkscape:label="port-00-data-connector-pin4" />
       <rect
          x="55"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect37" />
+         id="rect37"
+         inkscape:label="port-00-data-connector-pin5" />
       <rect
          x="65"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect38" />
+         id="rect38"
+         inkscape:label="port-00-data-connector-pin6" />
       <rect
          x="75"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect39" />
+         id="rect39"
+         inkscape:label="port-00-data-connector-pin7" />
       <rect
          x="85"
          y="9"
          width="6"
          height="13"
          rx="1"
-         id="rect40" />
+         id="rect40"
+         inkscape:label="port-00-data-connector-pin8" />
     </g>
-    <path
-       d="m 28,52 h 54 l -7,7 H 35 Z"
-       fill="#303638"
-       id="path40" />
   </g>
   <metadata
      id="metadata108">
@@ -276,7 +280,7 @@
             <dc:title>Tia Zanella - https://skhell.com</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:date>2026-09-14</dc:date>
+        <dc:date>2026-10-30</dc:date>
         <dc:title>OSIRIS JSON RJ45 Port</dc:title>
         <dc:rights>
           <cc:Agent>

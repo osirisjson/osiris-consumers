@@ -30,7 +30,7 @@
      inkscape:zoom="0.27441667"
      inkscape:cx="71.059823"
      inkscape:cy="184.02672"
-     inkscape:window-width="1078"
+     inkscape:window-width="1878"
      inkscape:window-height="1190"
      inkscape:window-x="26"
      inkscape:window-y="23"
@@ -265,7 +265,7 @@
             <dc:title>Tia Zanella - https://skhell.com</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:date>2026-09-14</dc:date>
+        <dc:date>2026-10-30</dc:date>
         <dc:title>OSIRIS JSON 1U SWITCH BODY</dc:title>
         <dc:rights>
           <cc:Agent>
@@ -295,5 +295,5 @@
      font-weight="700"
      letter-spacing="0.5"
      id="text46"
-     inkscape:label="model">SWITCH TYPE</text>
+     inkscape:label="chassis-model-label">SWITCH TYPE</text>
 </svg>

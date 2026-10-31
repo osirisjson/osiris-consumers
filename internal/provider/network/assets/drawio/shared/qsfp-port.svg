@@ -28,14 +28,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="3.1046702"
-     inkscape:cx="63.613842"
+     inkscape:cx="63.452794"
      inkscape:cy="28.183348"
      inkscape:window-width="1078"
      inkscape:window-height="1190"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg108" />
+     inkscape:current-layer="g111" />
   <desc
      id="desc">An original flat gray vector front view of a Cisco Nexus 9000 C93180YC-FX chassis with 48 SFP access ports and six QSFP uplink ports.</desc>
   <defs
@@ -175,93 +175,83 @@
     </pattern>
   </defs>
   <g
-     id="g108"
-     inkscape:label="SFP"
-     transform="translate(-2208.874,-429.2099)"
+     id="g111"
+     inkscape:label="QSFP-00"
+     transform="translate(-2311.4523,-416.48545)"
      style="display:inline">
+    <rect
+       width="170"
+       height="70"
+       rx="5"
+       fill="#6b7274"
+       id="rect112"
+       x="0"
+       y="0"
+       transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)"
+       inkscape:label="port-bg-cage" />
+    <rect
+       x="10"
+       y="51"
+       width="150"
+       height="13"
+       rx="2"
+       fill="#d5d7d6"
+       id="rect115"
+       transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)"
+       inkscape:label="port-bg-indicator"
+       style="display:inline" />
     <g
-       id="g111"
-       inkscape:label="QSFP"
-       transform="translate(-102.5783,12.724447)">
-      <rect
-         width="170"
-         height="70"
-         rx="5"
-         fill="#6b7274"
-         id="rect112"
-         x="0"
-         y="0"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)" />
-      <rect
-         x="8"
-         y="6"
-         width="154"
-         height="42"
-         rx="3"
-         fill="#202628"
-         id="rect113"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)" />
-      <rect
-         x="25"
-         y="12"
-         width="120"
-         height="6"
-         rx="3"
-         fill="#50595b"
-         id="rect114"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)" />
-      <rect
-         x="10"
-         y="51"
-         width="150"
-         height="13"
-         rx="2"
-         fill="#d5d7d6"
-         id="rect115"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)" />
-      <path
-         d="m 21.27412,61.54305 7,-8 7,8 z"
-         fill="#343a3c"
-         id="path115"
-         sodipodi:nodetypes="cccc"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)" />
-      <path
-         d="m 147.97627,54.016627 -7,7.999997 -7,-7.999997 z"
-         fill="#343a3c"
-         id="path115-9"
-         sodipodi:nodetypes="cccc"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)" />
-      <g
-         fill="#525a5c"
-         id="g119"
-         transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)">
-        <circle
-           cx="63"
-           cy="57"
-           r="3"
-           id="circle115" />
-        <circle
-           cx="73"
-           cy="57"
-           r="3"
-           id="circle116" />
-        <circle
-           cx="83"
-           cy="57"
-           r="3"
-           id="circle117" />
-        <circle
-           cx="93"
-           cy="57"
-           r="3"
-           id="circle118" />
-        <circle
-           cx="103"
-           cy="57"
-           r="3"
-           id="circle119" />
-      </g>
+       fill="#525a5c"
+       id="g119"
+       transform="matrix(0.98587986,0,0,1,2309.9879,416.48545)"
+       inkscape:label="port-00-silkscreen">
+      <circle
+         cx="63"
+         cy="57"
+         r="3"
+         id="circle115"
+         inkscape:label="port-00-silkscreen-lane-1" />
+      <circle
+         cx="73"
+         cy="57"
+         r="3"
+         id="circle116"
+         inkscape:label="port-00-silkscreen-lane-2" />
+      <circle
+         cx="83"
+         cy="57"
+         r="3"
+         id="circle117"
+         inkscape:label="port-00-silkscreen-lane-3" />
+      <circle
+         cx="93"
+         cy="57"
+         r="3"
+         id="circle118"
+         inkscape:label="port-00-silkscreen-lane-4" />
     </g>
+    <rect
+       x="8"
+       y="6"
+       width="154"
+       height="42"
+       rx="3"
+       fill="#202628"
+       id="rect113"
+       transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)"
+       inkscape:label="port-00-cage"
+       style="display:inline" />
+    <rect
+       x="25"
+       y="12"
+       width="120"
+       height="6"
+       rx="3"
+       fill="#50595b"
+       id="rect114"
+       transform="matrix(0.88746182,0,0,1,2311.4523,416.48545)"
+       inkscape:label="port-00-pcb-contacts"
+       style="display:inline;fill:#0d0f0f;fill-opacity:1" />
   </g>
   <metadata
      id="metadata108">
@@ -280,7 +270,7 @@
             <dc:title>Tia Zanella - https://skhell.com</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:date>2026-09-14</dc:date>
+        <dc:date>2026-10-30</dc:date>
         <dc:title>OSIRIS JSON QSFP Port</dc:title>
         <dc:rights>
           <cc:Agent>

@@ -17,7 +17,7 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title
-     id="title1">OSIRIS JSON PSU</title>
+     id="title1">OSIRIS JSON generic PSU</title>
   <sodipodi:namedview
      id="namedview108"
      pagecolor="#ffffff"
@@ -28,14 +28,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.77616754"
-     inkscape:cx="315.00931"
-     inkscape:cy="-93.407668"
-     inkscape:window-width="1078"
+     inkscape:cx="501.18045"
+     inkscape:cy="264.76242"
+     inkscape:window-width="1748"
      inkscape:window-height="1190"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="power-supply-1" />
+     inkscape:current-layer="svg108" />
   <desc
      id="desc">An original flat gray vector front view of a Cisco Nexus 9000 C93180YC-FX chassis with 48 SFP access ports and six QSFP uplink ports.</desc>
   <defs
@@ -191,18 +191,19 @@
             <dc:title>Tia Zanella - https://skhell.com</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:date>2026-09-14</dc:date>
-        <dc:title>OSIRIS JSON PSU</dc:title>
+        <dc:date>2026-10-30</dc:date>
+        <dc:title>OSIRIS JSON generic PSU</dc:title>
         <dc:rights>
           <cc:Agent>
             <dc:title>https://osirisjson.org/en</dc:title>
           </cc:Agent>
         </dc:rights>
+        <dc:description>OSIRIS JSON generic PSU</dc:description>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="power-supply-1"
+     id="power-supply-2-0"
      data-role="power-supply"
      transform="translate(2,2)"
      inkscape:label="power-supply">
@@ -213,7 +214,7 @@
        fill="#9fa6a9"
        stroke="#555d60"
        stroke-width="4"
-       id="rect23"
+       id="rect31-3"
        x="0"
        y="0"
        style="display:inline"
@@ -225,19 +226,19 @@
        font-family="Helvetica, Arial, sans-serif"
        font-size="12px"
        font-weight="700"
-       id="text23"
+       id="text32-1"
        style="display:inline"
-       inkscape:label="psu-title">PSU</text>
+       inkscape:label="psu-title">PSU 2</text>
     <g
-       id="use23"
+       id="use32-5"
        transform="translate(58,26)"
-       inkscape:label="g23">
+       inkscape:label="fan">
       <path
          d="m 27,0 h 104 l 27,27 v 104 l -27,27 H 27 L 0,131 V 27 Z"
          fill="#242a2c"
          stroke="#646c6f"
          stroke-width="7"
-         id="path45" />
+         id="path69-7" />
       <circle
          cx="79"
          cy="79"
@@ -245,15 +246,15 @@
          fill="#161b1d"
          stroke="#899093"
          stroke-width="7"
-         id="circle45" />
+         id="circle70-7" />
       <g
          stroke="#687073"
          stroke-width="7"
          stroke-linecap="round"
-         id="g47">
+         id="g70-7">
         <path
            d="M 79,24 V 134 M 24,79 h 110 m -94,-39 78,78 m 0,-78 -78,78"
-           id="path46" />
+           id="path70-0" />
       </g>
       <circle
          cx="79"
@@ -262,110 +263,123 @@
          fill="#d9dedd"
          stroke="#42b89b"
          stroke-width="10"
-         id="circle47"
-         style="stroke:#404040;stroke-opacity:1" />
+         id="circle71-9"
+         style="display:inline;stroke:none" />
     </g>
     <g
-       id="use24"
+       id="use33-8"
        transform="translate(326,43)"
-       inkscape:label="g24">
+       inkscape:label="socket">
       <rect
-         width="124"
-         height="118"
-         rx="7"
+         width="124.17351"
+         height="109.79903"
+         rx="7.0097947"
          fill="#1c2224"
          stroke="#687073"
-         stroke-width="5"
-         id="rect48"
-         x="0"
-         y="0" />
+         stroke-width="4.8265"
+         id="rect68-0"
+         x="-0.086752452"
+         y="-0.086752452" />
       <path
-         d="M 35,31 H 89 L 100,48 89,93 H 35 L 24,48 Z"
+         d="m 14.337618,18.632503 h 97.344502 l -0.0867,49.015321 -18.086084,24.01478 H 35.322095 L 14.337618,67.003629 Z"
          fill="#080b0c"
-         id="path48" />
-      <circle
-         cx="50"
-         cy="55"
-         r="6"
-         fill="#596164"
-         id="circle48" />
-      <circle
-         cx="74"
-         cy="55"
-         r="6"
-         fill="#596164"
-         id="circle49" />
+         id="path68-3"
+         sodipodi:nodetypes="ccccccc" />
       <rect
-         x="55"
+         x="58.543053"
          y="72"
-         width="14"
+         width="7.5580916"
          height="15"
-         rx="3"
+         rx="1.619591"
          fill="#596164"
-         id="rect49" />
+         id="rect69-8"
+         style="fill:#666666;stroke-width:0.734755" />
+      <rect
+         x="80.159248"
+         y="43.696579"
+         width="7.5580916"
+         height="15"
+         rx="1.619591"
+         fill="#596164"
+         id="rect69-8-0"
+         style="fill:#666666;stroke-width:0.734755" />
+      <rect
+         x="37.642654"
+         y="43.374485"
+         width="7.5580916"
+         height="15"
+         rx="1.619591"
+         fill="#596164"
+         id="rect69-8-3"
+         style="fill:#666666;stroke-width:0.734755" />
     </g>
     <path
-       d="m 452,56 c 48,-11 51,65 18,96 -21,19 1.26971,53 42,34"
+       d="m 402.48897,50.472467 c 18.06132,-49.93053998 203.06497,-71.51654 114.02037,78.336663 -12.94762,33.4943 -2.82055,53.96628 50.47146,61.73029"
        fill="none"
        stroke="#22282a"
        stroke-width="18"
        stroke-linecap="round"
-       id="path24"
-       sodipodi:nodetypes="ccc" />
+       id="path33-1-9"
+       sodipodi:nodetypes="ccc"
+       style="stroke:#1c2224;stroke-opacity:1" />
     <path
        d="M 512,47 V 186"
        stroke="#287bad"
        stroke-width="24"
        stroke-linecap="round"
-       id="path25" />
+       id="path34-1-0" />
     <rect
-       x="498"
+       x="493.16858"
        y="88"
-       width="28"
+       width="50.240993"
        height="18"
-       rx="4"
+       rx="7.1772852"
        fill="#153a51"
-       id="rect25" />
+       id="rect34-5"
+       style="display:inline;stroke-width:1.33953" />
     <circle
        cx="24"
        cy="55"
        r="7"
        fill="#42b89b"
-       id="circle25"
-       inkscape:label="status" />
+       id="circle34-1"
+       inkscape:label="power-supply-02-status-icon"
+       style="fill:#545454;fill-opacity:1" />
     <g
        transform="translate(23,178)"
-       id="g27">
+       id="g36-3"
+       inkscape:label="screw">
       <circle
          r="10"
          fill="#858c8f"
          stroke="#555d60"
          stroke-width="2"
-         id="circle27"
+         id="circle36-0"
          cx="0"
          cy="0" />
       <path
          d="M -5,-5 5,5 M 5,-5 -5,5"
          stroke="#d7dadb"
          stroke-width="2"
-         id="path27" />
+         id="path36-1" />
     </g>
     <g
        transform="translate(286,22)"
-       id="g28">
+       id="g37-9"
+       inkscape:label="screw">
       <circle
          r="10"
          fill="#858c8f"
          stroke="#555d60"
          stroke-width="2"
-         id="circle28"
+         id="circle37-9"
          cx="0"
          cy="0" />
       <path
          d="M -5,-5 5,5 M 5,-5 -5,5"
          stroke="#d7dadb"
          stroke-width="2"
-         id="path28" />
+         id="path37-2" />
     </g>
   </g>
 </svg>
