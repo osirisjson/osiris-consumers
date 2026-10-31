@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2965.6567"
+   height="545.65686"
+   viewBox="0 0 2965.6567 545.65686"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg108"
+   sodipodi:docname="osiris-json-cisco-N9K-C9364C-GX-rear.svg"
+   inkscape:version="1.4.4 (1:1.4.4+202605061435+dcaf3e7d9e)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">OSIRIS JSON Cisco Nexus 9000 C9364 rear chassis</title>
+  <sodipodi:namedview
+     id="namedview108"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.54883334"
+     inkscape:cx="2001.5183"
+     inkscape:cy="181.29365"
+     inkscape:window-width="1078"
+     inkscape:window-height="1190"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="power-supply-2-0-2"
+     showguides="false">
+    <sodipodi:guide
+       position="2482.51,533.35433"
+       orientation="0,-1"
+       id="guide25"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <desc
+     id="desc">An original flat gray vector front view of a Cisco Nexus 9000 C93180YC-FX chassis with 48 SFP access ports and six QSFP uplink ports.</desc>
+  <defs
+     id="defs13">
+    <g
+       id="sfp-access">
+      <rect
+         width="74"
+         height="70"
+         rx="4"
+         fill="#6b7274"
+         id="rect1"
+         x="0"
+         y="0" />
+      <rect
+         x="5"
+         y="6"
+         width="64"
+         height="44"
+         rx="3"
+         fill="#202628"
+         id="rect2" />
+      <rect
+         x="15"
+         y="12"
+         width="44"
+         height="6"
+         rx="3"
+         fill="#50595b"
+         id="rect3" />
+      <rect
+         x="8"
+         y="52"
+         width="58"
+         height="12"
+         rx="2"
+         fill="#d5d7d6"
+         id="rect4" />
+      <path
+         d="M 28,52 H 46 L 42,62 H 32 Z"
+         fill="#303638"
+         id="path4" />
+      <circle
+         cx="67"
+         cy="4"
+         r="3"
+         fill="#79a89d"
+         id="circle4" />
+    </g>
+    <g
+       id="qsfp-uplink">
+      <rect
+         width="170"
+         height="70"
+         rx="5"
+         fill="#6b7274"
+         id="rect5"
+         x="0"
+         y="0" />
+      <rect
+         x="8"
+         y="6"
+         width="154"
+         height="42"
+         rx="3"
+         fill="#202628"
+         id="rect6" />
+      <rect
+         x="25"
+         y="12"
+         width="120"
+         height="6"
+         rx="3"
+         fill="#50595b"
+         id="rect7" />
+      <rect
+         x="10"
+         y="51"
+         width="150"
+         height="13"
+         rx="2"
+         fill="#d5d7d6"
+         id="rect8" />
+      <path
+         d="m 22,58 7,-8 7,8 z m 112,0 7,-8 7,8 z"
+         fill="#343a3c"
+         id="path8" />
+      <g
+         fill="#525a5c"
+         id="g12">
+        <circle
+           cx="63"
+           cy="57"
+           r="3"
+           id="circle8" />
+        <circle
+           cx="73"
+           cy="57"
+           r="3"
+           id="circle9" />
+        <circle
+           cx="83"
+           cy="57"
+           r="3"
+           id="circle10" />
+        <circle
+           cx="93"
+           cy="57"
+           r="3"
+           id="circle11" />
+        <circle
+           cx="103"
+           cy="57"
+           r="3"
+           id="circle12" />
+      </g>
+      <circle
+         cx="166"
+         cy="7"
+         r="4"
+         fill="#79a89d"
+         id="circle13" />
+    </g>
+    <pattern
+       id="bottom-vents"
+       width="16"
+       height="10"
+       patternUnits="userSpaceOnUse">
+      <rect
+         x="2"
+         y="2"
+         width="10"
+         height="6"
+         rx="2"
+         fill="#555D5F"
+         id="rect13" />
+    </pattern>
+    <pattern
+       id="honeycomb"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path1" />
+    </pattern>
+    <pattern
+       id="honeycomb-6"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path1-7" />
+    </pattern>
+    <pattern
+       id="pattern2"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path2" />
+    </pattern>
+    <pattern
+       id="pattern3"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path3" />
+    </pattern>
+    <pattern
+       id="pattern4"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path4-5" />
+    </pattern>
+    <pattern
+       id="rail-vents"
+       width="18"
+       height="10"
+       patternUnits="userSpaceOnUse">
+      <rect
+         x="2"
+         y="2"
+         width="12"
+         height="6"
+         rx="2"
+         fill="#596164"
+         id="rect1-3" />
+    </pattern>
+    <linearGradient
+       id="module-face"
+       x1="1726.2452"
+       x2="1726.2452"
+       y1="44.343064"
+       y2="515.8937"
+       gradientTransform="scale(1.0815382,0.92460909)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#edf0f0"
+         id="stop1" />
+      <stop
+         offset="22%"
+         stop-color="#b5bbbd"
+         id="stop2" />
+      <stop
+         offset="62%"
+         stop-color="#a6adaf"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#d7dcde"
+         id="stop4" />
+    </linearGradient>
+    <pattern
+       id="rear-hex-vents"
+       width="39"
+       height="34"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="none"
+         stroke="#7d878a"
+         stroke-width="3"
+         id="path33" />
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="#161c1e"
+         stroke="#697478"
+         stroke-width="1.1"
+         id="path34" />
+    </pattern>
+    <linearGradient
+       id="rail-metal"
+       x1="816.13489"
+       x2="816.13489"
+       y1="556.78296"
+       y2="776.74658"
+       gradientTransform="matrix(1.9344163,0,0,0.43718222,-2051.8214,1830.0023)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#dfe2e2"
+         id="stop5" />
+      <stop
+         offset="48%"
+         stop-color="#f3f4f4"
+         id="stop6" />
+      <stop
+         offset="50%"
+         stop-color="#9ea5a8"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#bec4c6"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient192"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="red-latch"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="0.12">
+      <stop
+         offset="0%"
+         stop-color="#7b1127"
+         id="stop17" />
+      <stop
+         offset="15%"
+         stop-color="#cd2342"
+         id="stop18" />
+      <stop
+         offset="45%"
+         stop-color="#f04b63"
+         id="stop19" />
+      <stop
+         offset="60%"
+         stop-color="#be1735"
+         id="stop20" />
+      <stop
+         offset="100%"
+         stop-color="#780f28"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <pattern
+       id="honeycomb-4"
+       width="34"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2h17l8 13-8 13H8L0 15z"
+         fill="none"
+         stroke="#747C7E"
+         stroke-width="3"
+         id="path1-70" />
+    </pattern>
+    <pattern
+       id="rear-hex-vents-0"
+       width="39"
+       height="34"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="none"
+         stroke="#7d878a"
+         stroke-width="3"
+         id="path33-18" />
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="#161c1e"
+         stroke="#697478"
+         stroke-width="1.1"
+         id="path34-7" />
+    </pattern>
+    <linearGradient
+       id="rail-metal-5"
+       x1="816.13489"
+       x2="816.13489"
+       y1="556.78296"
+       y2="776.74658"
+       gradientTransform="matrix(1.9344163,0,0,0.43718222,-2051.8214,1830.0023)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#dfe2e2"
+         id="stop5-3" />
+      <stop
+         offset="48%"
+         stop-color="#f3f4f4"
+         id="stop6-0" />
+      <stop
+         offset="50%"
+         stop-color="#9ea5a8"
+         id="stop7-6" />
+      <stop
+         offset="100%"
+         stop-color="#bec4c6"
+         id="stop8-6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient1-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient17"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <pattern
+       id="rear-hex-vents-07"
+       width="39"
+       height="34"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="none"
+         stroke="#7d878a"
+         stroke-width="3"
+         id="path33-3" />
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="#161c1e"
+         stroke="#697478"
+         stroke-width="1.1"
+         id="path34-2" />
+    </pattern>
+    <linearGradient
+       id="rail-metal-7"
+       x1="816.13489"
+       x2="816.13489"
+       y1="556.78296"
+       y2="776.74658"
+       gradientTransform="matrix(1.9344163,0,0,0.43718222,-2051.8214,1830.0023)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#dfe2e2"
+         id="stop5-0" />
+      <stop
+         offset="48%"
+         stop-color="#f3f4f4"
+         id="stop6-7" />
+      <stop
+         offset="50%"
+         stop-color="#9ea5a8"
+         id="stop7-1" />
+      <stop
+         offset="100%"
+         stop-color="#bec4c6"
+         id="stop8-3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient1-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient18"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <pattern
+       id="rear-hex-vents-5"
+       width="39"
+       height="34"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="none"
+         stroke="#7d878a"
+         stroke-width="3"
+         id="path33-5" />
+      <path
+         d="M8 2H29L37 17L29 32H8L0 17Z"
+         fill="#161c1e"
+         stroke="#697478"
+         stroke-width="1.1"
+         id="path34-5" />
+    </pattern>
+    <linearGradient
+       id="rail-metal-8"
+       x1="816.13489"
+       x2="816.13489"
+       y1="556.78296"
+       y2="776.74658"
+       gradientTransform="matrix(1.9344163,0,0,0.43718222,-2051.8214,1830.0023)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#dfe2e2"
+         id="stop5-9" />
+      <stop
+         offset="48%"
+         stop-color="#f3f4f4"
+         id="stop6-3" />
+      <stop
+         offset="50%"
+         stop-color="#9ea5a8"
+         id="stop7-9" />
+      <stop
+         offset="100%"
+         stop-color="#bec4c6"
+         id="stop8-66" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient1-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-latch"
+       id="linearGradient19"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.69965026,1.4292855)"
+       x1="3304.5083"
+       y1="156.72166"
+       x2="3404.5581"
+       y2="168.72766" />
+    <linearGradient
+       id="module-face-7"
+       x1="1513.864"
+       x2="1513.864"
+       y1="425.0514"
+       y2="749.80977"
+       gradientTransform="scale(1.5919528,0.62815933)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#edf0f0"
+         id="stop1-6" />
+      <stop
+         offset="22%"
+         stop-color="#b5bbbd"
+         id="stop2-8" />
+      <stop
+         offset="62%"
+         stop-color="#a6adaf"
+         id="stop3-2" />
+      <stop
+         offset="100%"
+         stop-color="#d7dcde"
+         id="stop4-4" />
+    </linearGradient>
+    <linearGradient
+       id="glass-chrome"
+       x1="0"
+       x2="0"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#e6f1f4"
+         id="stop28" />
+      <stop
+         offset="25%"
+         stop-color="#5b7079"
+         id="stop29" />
+      <stop
+         offset="45%"
+         stop-color="#e6eff1"
+         id="stop30" />
+      <stop
+         offset="75%"
+         stop-color="#52646a"
+         id="stop31" />
+      <stop
+         offset="100%"
+         stop-color="#b4c4c8"
+         id="stop32" />
+    </linearGradient>
+    <linearGradient
+       id="socket-black"
+       x1="2430.2764"
+       x2="2430.2764"
+       y1="336.05806"
+       y2="479.92606"
+       gradientTransform="scale(1.098229,0.91055693)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#414a4d"
+         id="stop22" />
+      <stop
+         offset="24%"
+         stop-color="#111719"
+         id="stop23" />
+      <stop
+         offset="100%"
+         stop-color="#283136"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="red-latch-4"
+       x1="4592.8749"
+       x2="4658.4874"
+       y1="196.21262"
+       y2="204.08612"
+       gradientTransform="scale(0.62488094,1.6003048)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#7b1127"
+         id="stop20-6" />
+      <stop
+         offset="15%"
+         stop-color="#cd2342"
+         id="stop21-4" />
+      <stop
+         offset="45%"
+         stop-color="#f04b63"
+         id="stop25" />
+      <stop
+         offset="60%"
+         stop-color="#be1735"
+         id="stop26" />
+      <stop
+         offset="100%"
+         stop-color="#780f28"
+         id="stop27" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata108">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>https://osirisjson.org/en</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://osirisjson.org/en</dc:identifier>
+        <dc:source>https://osirisjson.org/en</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Tia Zanella - https://skhell.com</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2026-10-30</dc:date>
+        <dc:title>OSIRIS JSON Cisco Nexus 9000 C9364 rear chassis</dc:title>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>https://osirisjson.org/en</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>OSIRIS JSON Cisco Nexus 9000 C9364 rear chassis</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g25"
+     inkscape:label="OSIRIS-JSON-CISCO-N9k-C9364-REAR">
+    <rect
+       x="2.8284249"
+       y="2.8284249"
+       width="2960"
+       height="540"
+       rx="17"
+       fill="#bbc0c2"
+       stroke="#51585b"
+       stroke-width="5.65685"
+       id="rect22"
+       inkscape:label="chassis-background" />
+    <g
+       id="g2"
+       inkscape:label="fan-group">
+      <g
+         id="fan-4"
+         inkscape:label="Fan 1"
+         transform="matrix(1.0370625,0,0,1.179655,-1919.0286,-33.355321)">
+        <rect
+           x="1861"
+           y="36"
+           width="522"
+           height="446"
+           rx="10"
+           fill="#545d60"
+           stroke="#303b40"
+           stroke-width="4"
+           id="rect125"
+           style="display:inline"
+           inkscape:label="bg" />
+        <rect
+           x="1868"
+           y="42"
+           width="508"
+           height="434"
+           rx="8"
+           fill="url(#module-face)"
+           stroke="#eef0f0"
+           stroke-width="2"
+           id="rect126"
+           style="display:inline;fill:#e5e5e5;fill-opacity:1"
+           inkscape:label="bg-02" />
+        <rect
+           x="1896"
+           y="87"
+           width="452"
+           height="354"
+           rx="6"
+           fill="#141a1d"
+           stroke="#50595d"
+           stroke-width="4"
+           id="rect127"
+           style="display:inline"
+           inkscape:label="vent-bg" />
+        <rect
+           x="1899"
+           y="90"
+           width="446"
+           height="348"
+           rx="4"
+           fill="url(#rear-hex-vents)"
+           id="rect128"
+           style="display:inline"
+           inkscape:label="vent" />
+        <rect
+           x="-472.23236"
+           y="2074.4197"
+           width="423.81274"
+           height="94.160767"
+           rx="8.4424849"
+           fill="url(#rail-metal)"
+           stroke="#80898c"
+           stroke-width="1.83923"
+           id="rect132"
+           style="display:inline;fill:url(#rail-metal)"
+           inkscape:label="handle"
+           transform="rotate(-90)" />
+        <path
+           id="rect139"
+           style="display:inline;fill:url(#linearGradient1)"
+           d="m 2381.0005,234.00078 c 0,-4.986 -4.0143,-9.00026 -9.0003,-9.00026 h -50.0009 c -4.986,0 -8.9986,4.01426 -8.9986,9.00026 v 122.99866 c 0,4.986 4.0126,9.00027 8.9986,9.00027 h 50.0009 c 4.986,0 9.0003,-4.01427 9.0003,-9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(-90,2123.75,297.74998)" />
+        <path
+           id="rect139-9"
+           style="display:inline;fill:url(#linearGradient192)"
+           d="m 2313.0003,356.99929 c 0,4.986 4.0143,9.00026 9.0003,9.00026 h 49.9993 c 4.986,0 9.0002,-4.01426 9.0002,-9.00026 V 234.00063 c 0,-4.986 -4.0142,-9.00027 -9.0002,-9.00027 h -49.9993 c -4.986,0 -9.0003,4.01427 -9.0003,9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(90,2160.3552,256.6449)" />
+      </g>
+      <g
+         id="fan-4-8"
+         inkscape:label="Fan 2"
+         transform="matrix(1.0370625,0,0,1.179655,-1372.2174,-33.355321)">
+        <rect
+           x="1861"
+           y="36"
+           width="522"
+           height="446"
+           rx="10"
+           fill="#545d60"
+           stroke="#303b40"
+           stroke-width="4"
+           id="rect125-5"
+           style="display:inline"
+           inkscape:label="bg" />
+        <rect
+           x="1868"
+           y="42"
+           width="508"
+           height="434"
+           rx="8"
+           fill="url(#module-face)"
+           stroke="#eef0f0"
+           stroke-width="2"
+           id="rect126-2"
+           style="display:inline;fill:#e5e5e5;fill-opacity:1"
+           inkscape:label="bg-02" />
+        <rect
+           x="1896"
+           y="87"
+           width="452"
+           height="354"
+           rx="6"
+           fill="#141a1d"
+           stroke="#50595d"
+           stroke-width="4"
+           id="rect127-9"
+           style="display:inline"
+           inkscape:label="vent-bg" />
+        <rect
+           x="1899"
+           y="90"
+           width="446"
+           height="348"
+           rx="4"
+           fill="url(#rear-hex-vents)"
+           id="rect128-0"
+           style="display:inline;fill:url(#rear-hex-vents-0)"
+           inkscape:label="vent" />
+        <rect
+           x="-472.23236"
+           y="2074.4197"
+           width="423.81274"
+           height="94.160767"
+           rx="8.4424849"
+           fill="url(#rail-metal)"
+           stroke="#80898c"
+           stroke-width="1.83923"
+           id="rect132-7"
+           style="display:inline;fill:url(#rail-metal-5)"
+           inkscape:label="handle"
+           transform="rotate(-90)" />
+        <path
+           id="rect139-6"
+           style="display:inline;fill:url(#linearGradient17)"
+           d="m 2381.0005,234.00078 c 0,-4.986 -4.0143,-9.00026 -9.0003,-9.00026 h -50.0009 c -4.986,0 -8.9986,4.01426 -8.9986,9.00026 v 122.99866 c 0,4.986 4.0126,9.00027 8.9986,9.00027 h 50.0009 c 4.986,0 9.0003,-4.01427 9.0003,-9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(-90,2123.75,297.74998)" />
+        <path
+           id="rect139-9-0"
+           style="display:inline;fill:url(#linearGradient1-1)"
+           d="m 2313.0003,356.99929 c 0,4.986 4.0143,9.00026 9.0003,9.00026 h 49.9993 c 4.986,0 9.0002,-4.01426 9.0002,-9.00026 V 234.00063 c 0,-4.986 -4.0142,-9.00027 -9.0002,-9.00027 h -49.9993 c -4.986,0 -9.0003,4.01427 -9.0003,9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(90,2160.3552,256.6449)" />
+      </g>
+      <g
+         id="fan-4-5"
+         inkscape:label="Fan 3"
+         transform="matrix(1.0370625,0,0,1.179655,-825.40623,-33.355321)">
+        <rect
+           x="1861"
+           y="36"
+           width="522"
+           height="446"
+           rx="10"
+           fill="#545d60"
+           stroke="#303b40"
+           stroke-width="4"
+           id="rect125-3"
+           style="display:inline"
+           inkscape:label="bg" />
+        <rect
+           x="1868"
+           y="42"
+           width="508"
+           height="434"
+           rx="8"
+           fill="url(#module-face)"
+           stroke="#eef0f0"
+           stroke-width="2"
+           id="rect126-8"
+           style="display:inline;fill:#e5e5e5;fill-opacity:1"
+           inkscape:label="bg-02" />
+        <rect
+           x="1896"
+           y="87"
+           width="452"
+           height="354"
+           rx="6"
+           fill="#141a1d"
+           stroke="#50595d"
+           stroke-width="4"
+           id="rect127-0"
+           style="display:inline"
+           inkscape:label="vent-bg" />
+        <rect
+           x="1899"
+           y="90"
+           width="446"
+           height="348"
+           rx="4"
+           fill="url(#rear-hex-vents)"
+           id="rect128-7"
+           style="display:inline;fill:url(#rear-hex-vents-07)"
+           inkscape:label="vent" />
+        <rect
+           x="-472.23236"
+           y="2074.4197"
+           width="423.81274"
+           height="94.160767"
+           rx="8.4424849"
+           fill="url(#rail-metal)"
+           stroke="#80898c"
+           stroke-width="1.83923"
+           id="rect132-73"
+           style="display:inline;fill:url(#rail-metal-7)"
+           inkscape:label="handle"
+           transform="rotate(-90)" />
+        <path
+           id="rect139-4"
+           style="display:inline;fill:url(#linearGradient18)"
+           d="m 2381.0005,234.00078 c 0,-4.986 -4.0143,-9.00026 -9.0003,-9.00026 h -50.0009 c -4.986,0 -8.9986,4.01426 -8.9986,9.00026 v 122.99866 c 0,4.986 4.0126,9.00027 8.9986,9.00027 h 50.0009 c 4.986,0 9.0003,-4.01427 9.0003,-9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(-90,2123.75,297.74998)" />
+        <path
+           id="rect139-9-6"
+           style="display:inline;fill:url(#linearGradient1-3)"
+           d="m 2313.0003,356.99929 c 0,4.986 4.0143,9.00026 9.0003,9.00026 h 49.9993 c 4.986,0 9.0002,-4.01426 9.0002,-9.00026 V 234.00063 c 0,-4.986 -4.0142,-9.00027 -9.0002,-9.00027 h -49.9993 c -4.986,0 -9.0003,4.01427 -9.0003,9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(90,2160.3552,256.6449)" />
+      </g>
+      <g
+         id="fan-4-53"
+         inkscape:label="Fan 4"
+         transform="matrix(1.0370625,0,0,1.179655,-278.59505,-33.355321)">
+        <rect
+           x="1861"
+           y="36"
+           width="522"
+           height="446"
+           rx="10"
+           fill="#545d60"
+           stroke="#303b40"
+           stroke-width="4"
+           id="rect125-7"
+           style="display:inline"
+           inkscape:label="bg" />
+        <rect
+           x="1868"
+           y="42"
+           width="508"
+           height="434"
+           rx="8"
+           fill="url(#module-face)"
+           stroke="#eef0f0"
+           stroke-width="2"
+           id="rect126-3"
+           style="display:inline;fill:#e5e5e5;fill-opacity:1"
+           inkscape:label="bg-02" />
+        <rect
+           x="1896"
+           y="87"
+           width="452"
+           height="354"
+           rx="6"
+           fill="#141a1d"
+           stroke="#50595d"
+           stroke-width="4"
+           id="rect127-5"
+           style="display:inline"
+           inkscape:label="vent-bg" />
+        <rect
+           x="1899"
+           y="90"
+           width="446"
+           height="348"
+           rx="4"
+           fill="url(#rear-hex-vents)"
+           id="rect128-5"
+           style="display:inline;fill:url(#rear-hex-vents-5)"
+           inkscape:label="vent" />
+        <rect
+           x="-472.23236"
+           y="2074.4197"
+           width="423.81274"
+           height="94.160767"
+           rx="8.4424849"
+           fill="url(#rail-metal)"
+           stroke="#80898c"
+           stroke-width="1.83923"
+           id="rect132-1"
+           style="display:inline;fill:url(#rail-metal-8)"
+           inkscape:label="handle"
+           transform="rotate(-90)" />
+        <path
+           id="rect139-8"
+           style="display:inline;fill:url(#linearGradient19)"
+           d="m 2381.0005,234.00078 c 0,-4.986 -4.0143,-9.00026 -9.0003,-9.00026 h -50.0009 c -4.986,0 -8.9986,4.01426 -8.9986,9.00026 v 122.99866 c 0,4.986 4.0126,9.00027 8.9986,9.00027 h 50.0009 c 4.986,0 9.0003,-4.01427 9.0003,-9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(-90,2123.75,297.74998)" />
+        <path
+           id="rect139-9-1"
+           style="display:inline;fill:url(#linearGradient1-4)"
+           d="m 2313.0003,356.99929 c 0,4.986 4.0143,9.00026 9.0003,9.00026 h 49.9993 c 4.986,0 9.0002,-4.01426 9.0002,-9.00026 V 234.00063 c 0,-4.986 -4.0142,-9.00027 -9.0002,-9.00027 h -49.9993 c -4.986,0 -9.0003,4.01427 -9.0003,9.00027 z"
+           inkscape:label="latch"
+           transform="rotate(90,2160.3552,256.6449)" />
+      </g>
+    </g>
+    <g
+       id="power-supply-2-0-2"
+       data-role="power-supply"
+       transform="matrix(1.0206055,0,0,1.0206055,2139.0412,105.04121)"
+       inkscape:label="management-block">
+      <rect
+         width="145.23314"
+         height="516.57733"
+         rx="10.894011"
+         fill="#9fa6a9"
+         stroke="#555d60"
+         stroke-width="3.15034"
+         id="rect31-3-1"
+         x="57.644184"
+         y="-94.324806"
+         style="display:inline"
+         inkscape:label="background" />
+      <g
+         id="use39"
+         transform="matrix(0,0.89193175,-1.5165599,0,183.71951,7.8593599)"
+         inkscape:label="RJ45-console">
+        <rect
+           width="110"
+           height="61"
+           rx="5"
+           fill="#697174"
+           id="rect31"
+           x="0"
+           y="0"
+           inkscape:label="port-bg" />
+        <path
+           id="rect32"
+           d="m 10.001182,7.0008336 c -1.6620004,0 -3.0010149,1.3379538 -3.0010149,2.9999534 v 38.9994 c 0,1.662 1.3390145,2.999954 3.0010149,2.999954 h 18.000254 l 6.99945,6.999892 h 39.998945 l 6.99945,-6.999892 h 18.000254 c 1.662005,0 3.001015,-1.337954 3.001015,-2.999954 v -38.9994 c 0,-1.6619996 -1.33901,-2.9999534 -3.001015,-2.9999534 z"
+           style="fill:#282e30;fill-opacity:1"
+           inkscape:label="port-console-cage" />
+        <g
+           fill="#d4af37"
+           id="g40"
+           inkscape:label="port-console-data-connector-pins"
+           transform="translate(2)">
+          <rect
+             x="15"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect33"
+             inkscape:label="port-00-data-connector-pin1" />
+          <rect
+             x="25"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect34"
+             inkscape:label="port-00-data-connector-pin2" />
+          <rect
+             x="35"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect35"
+             inkscape:label="port-00-data-connector-pin3" />
+          <rect
+             x="45"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect36"
+             inkscape:label="port-00-data-connector-pin4" />
+          <rect
+             x="55"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect37"
+             inkscape:label="port-00-data-connector-pin5" />
+          <rect
+             x="65"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect38"
+             inkscape:label="port-00-data-connector-pin6" />
+          <rect
+             x="75"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect39"
+             inkscape:label="port-00-data-connector-pin7" />
+          <rect
+             x="85"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect40"
+             inkscape:label="port-00-data-connector-pin8" />
+        </g>
+      </g>
+      <g
+         id="use39-7"
+         transform="matrix(0,-0.89193175,1.5165599,0,91.634741,212.7055)"
+         inkscape:label="RJ45-management">
+        <rect
+           width="110"
+           height="61"
+           rx="5"
+           fill="#697174"
+           id="rect31-5"
+           x="0"
+           y="0"
+           inkscape:label="port-bg" />
+        <path
+           id="rect32-1"
+           d="m 10.001182,7.0008336 c -1.6620004,0 -3.0010149,1.3379538 -3.0010149,2.9999534 v 38.9994 c 0,1.662 1.3390145,2.999954 3.0010149,2.999954 h 18.000254 l 6.99945,6.999892 h 39.998945 l 6.99945,-6.999892 h 18.000254 c 1.662005,0 3.001015,-1.337954 3.001015,-2.999954 v -38.9994 c 0,-1.6619996 -1.33901,-2.9999534 -3.001015,-2.9999534 z"
+           style="fill:#282e30;fill-opacity:1"
+           inkscape:label="port-management-rj45-cage" />
+        <g
+           fill="#d4af37"
+           id="g40-3"
+           inkscape:label="port-management-data-connector-pins"
+           transform="translate(2)">
+          <rect
+             x="15"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect33-2"
+             inkscape:label="port-00-data-connector-pin1" />
+          <rect
+             x="25"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect34-9"
+             inkscape:label="port-00-data-connector-pin2" />
+          <rect
+             x="35"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect35-2"
+             inkscape:label="port-00-data-connector-pin3" />
+          <rect
+             x="45"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect36-0"
+             inkscape:label="port-00-data-connector-pin4" />
+          <rect
+             x="55"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect37-0"
+             inkscape:label="port-00-data-connector-pin5" />
+          <rect
+             x="65"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect38-0"
+             inkscape:label="port-00-data-connector-pin6" />
+          <rect
+             x="75"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect39-8"
+             inkscape:label="port-00-data-connector-pin7" />
+          <rect
+             x="85"
+             y="9"
+             width="6"
+             height="13"
+             rx="1"
+             id="rect40-7"
+             inkscape:label="port-00-data-connector-pin8" />
+        </g>
+      </g>
+      <g
+         id="g1"
+         inkscape:label="USB-00"
+         transform="matrix(0,-1.3113589,1.3113589,0,92.772217,405.32168)">
+        <rect
+           x="0"
+           y="0"
+           width="26.25"
+           height="70"
+           rx="3.125"
+           fill="#202628"
+           id="rect42"
+           style="stroke-width:0.625" />
+        <rect
+           x="6.875"
+           y="9.375"
+           width="12.5"
+           height="50"
+           rx="1.25"
+           fill="#777f81"
+           id="rect43"
+           style="stroke-width:0.625" />
+        <rect
+           x="9.375"
+           y="13.75"
+           width="7.5"
+           height="16.25"
+           rx="1.25"
+           fill="#d4af37"
+           id="rect44"
+           style="stroke-width:0.625" />
+      </g>
+      <g
+         id="g108"
+         inkscape:label="SFP-management"
+         transform="matrix(0,1.3318469,-1.3318469,0,721.93995,-2715.2203)">
+        <rect
+           width="74"
+           height="59.067719"
+           rx="4"
+           fill="#6b7274"
+           id="rect108"
+           x="2211.874"
+           y="414.2099"
+           style="stroke-width:0.918599"
+           inkscape:label="port-bg" />
+        <rect
+           x="2216.6853"
+           y="457.55515"
+           width="64.377167"
+           height="12.455512"
+           rx="2.2199023"
+           fill="#d5d7d6"
+           id="rect111"
+           style="stroke-width:1.07335"
+           inkscape:label="port-bg-indicator" />
+        <path
+           id="rect109"
+           style="fill:#202628;fill-opacity:1;stroke-width:0.919082"
+           d="m 2219.874,420.2099 c -1.662,0 -3,1.338 -3,3 v 31.16797 c 0,1.662 1.338,3 3,3 h 19.8145 v 3.68164 c 0,0.35094 0.2818,0.63477 0.6328,0.63477 h 17.1035 c 0.3509,0 0.6347,-0.28383 0.6347,-0.63477 v -3.68164 h 19.8145 c 1.662,0 3,-1.338 3,-3 V 423.2099 c 0,-1.662 -1.338,-3 -3,-3 z"
+           inkscape:label="port-management-sfp-cage" />
+        <rect
+           x="2226.874"
+           y="449.51907"
+           width="44"
+           height="5.0682716"
+           rx="0"
+           fill="#50595b"
+           id="rect110"
+           style="fill:#0d0f0f;fill-opacity:1;stroke-width:0.919082"
+           inkscape:label="port-management-pcb-contacts" />
+      </g>
+    </g>
+    <g
+       id="power-supply-2-0-3"
+       data-role="power-supply"
+       transform="matrix(1.0206055,0,0,1.0206055,2351.0267,278.2116)"
+       inkscape:label="power-supply-02">
+      <rect
+         width="589.5647"
+         height="252.2348"
+         rx="8.9933596"
+         fill="#9fa6a9"
+         stroke="#555d60"
+         stroke-width="4.43532"
+         id="rect31-3-8"
+         x="0.21766159"
+         y="0.21766159"
+         style="display:inline"
+         inkscape:label="background" />
+      <text
+         x="18"
+         y="25"
+         fill="#3f4749"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700"
+         id="text32-1-6"
+         style="white-space:pre;inline-size:37.1171;display:inline"
+         inkscape:label="psu-title"
+         xml:space="preserve"><tspan
+           x="18"
+           y="25"
+           id="tspan3">PSU 2</tspan></text>
+      <g
+         id="use32-5-3"
+         transform="matrix(1.320411,0,0,1.320411,59.121439,27.121439)"
+         inkscape:label="fan">
+        <path
+           d="m 27,0 h 104 l 27,27 v 104 l -27,27 H 27 L 0,131 V 27 Z"
+           fill="#242a2c"
+           stroke="#646c6f"
+           stroke-width="7"
+           id="path69-7-4" />
+        <circle
+           cx="79"
+           cy="79"
+           r="57"
+           fill="#161b1d"
+           stroke="#899093"
+           stroke-width="7"
+           id="circle70-7-7" />
+        <g
+           stroke="#687073"
+           stroke-width="7"
+           stroke-linecap="round"
+           id="g70-7-1">
+          <path
+             d="M 79,24 V 134 M 24,79 h 110 m -94,-39 78,78 m 0,-78 -78,78"
+             id="path70-0-3" />
+        </g>
+        <circle
+           cx="79"
+           cy="79"
+           r="38"
+           fill="#d9dedd"
+           stroke="#42b89b"
+           stroke-width="10"
+           id="circle71-9-9"
+           style="display:inline;stroke:none" />
+      </g>
+      <g
+         id="use33-8-8"
+         transform="rotate(-90,256.80705,-75.735996)"
+         inkscape:label="socket">
+        <rect
+           width="124.17351"
+           height="109.79903"
+           rx="7.0097947"
+           fill="#1c2224"
+           stroke="#687073"
+           stroke-width="4.8265"
+           id="rect68-0-1"
+           x="-0.086752452"
+           y="-0.086752452" />
+        <path
+           d="m 14.337618,18.632503 h 97.344502 l -0.0867,49.015321 -18.086084,24.01478 H 35.322095 L 14.337618,67.003629 Z"
+           fill="#080b0c"
+           id="path68-3-7"
+           sodipodi:nodetypes="ccccccc" />
+        <rect
+           x="58.543053"
+           y="72"
+           width="7.5580916"
+           height="15"
+           rx="1.619591"
+           fill="#596164"
+           id="rect69-8-4"
+           style="fill:#666666;stroke-width:0.734755" />
+        <rect
+           x="80.159248"
+           y="43.696579"
+           width="7.5580916"
+           height="15"
+           rx="1.619591"
+           fill="#596164"
+           id="rect69-8-0-2"
+           style="fill:#666666;stroke-width:0.734755" />
+        <rect
+           x="37.642654"
+           y="43.374485"
+           width="7.5580916"
+           height="15"
+           rx="1.619591"
+           fill="#596164"
+           id="rect69-8-3-9"
+           style="fill:#666666;stroke-width:0.734755" />
+      </g>
+      <path
+         d="m 423.74727,70.442382 c 18.06132,-49.93054 181.16248,-70.22815844 92.11788,79.625048 -12.94762,33.4943 -2.82055,53.96628 50.47146,61.73029"
+         fill="none"
+         stroke="#22282a"
+         stroke-width="18"
+         stroke-linecap="round"
+         id="path33-1-9-8"
+         sodipodi:nodetypes="ccc"
+         style="stroke:#1c2224;stroke-opacity:1" />
+      <path
+         d="M 511.35581,68.258297 V 207.2583"
+         stroke="#287bad"
+         stroke-width="24"
+         stroke-linecap="round"
+         id="path34-1-0-5" />
+      <rect
+         x="492.52438"
+         y="109.25829"
+         width="50.240993"
+         height="18"
+         rx="7.1772852"
+         fill="#153a51"
+         id="rect34-5-5"
+         style="display:inline;stroke-width:1.33953" />
+      <circle
+         cx="24"
+         cy="55"
+         r="7"
+         fill="#42b89b"
+         id="circle34-1-2"
+         inkscape:label="power-supply-02-status-icon"
+         style="fill:#545454;fill-opacity:1" />
+      <g
+         transform="translate(25.576763,228.89107)"
+         id="g36-3-2"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle36-0-0"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path36-1-7" />
+      </g>
+      <g
+         transform="translate(568.79976,67.737547)"
+         id="g37-9-1"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle37-9-5"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path37-2-6" />
+      </g>
+    </g>
+    <g
+       id="power-supply-2-0"
+       data-role="power-supply"
+       transform="matrix(1.0206055,0,0,1.0206055,2351.0267,8.8109582)"
+       inkscape:label="power-supply-01">
+      <rect
+         width="589.5647"
+         height="252.2348"
+         rx="8.9933596"
+         fill="#9fa6a9"
+         stroke="#555d60"
+         stroke-width="4.43532"
+         id="rect31-3"
+         x="0.21766159"
+         y="0.21766159"
+         style="display:inline"
+         inkscape:label="background" />
+      <text
+         x="18"
+         y="25"
+         fill="#3f4749"
+         font-family="Helvetica, Arial, sans-serif"
+         font-size="12px"
+         font-weight="700"
+         id="text32-1"
+         style="white-space:pre;inline-size:37.1171;display:inline"
+         inkscape:label="psu-title"
+         xml:space="preserve"><tspan
+           x="18"
+           y="25"
+           id="tspan4">PSU 1</tspan></text>
+      <g
+         id="use32-5"
+         transform="matrix(1.320411,0,0,1.320411,59.121439,27.121439)"
+         inkscape:label="fan">
+        <path
+           d="m 27,0 h 104 l 27,27 v 104 l -27,27 H 27 L 0,131 V 27 Z"
+           fill="#242a2c"
+           stroke="#646c6f"
+           stroke-width="7"
+           id="path69-7" />
+        <circle
+           cx="79"
+           cy="79"
+           r="57"
+           fill="#161b1d"
+           stroke="#899093"
+           stroke-width="7"
+           id="circle70-7" />
+        <g
+           stroke="#687073"
+           stroke-width="7"
+           stroke-linecap="round"
+           id="g70-7">
+          <path
+             d="M 79,24 V 134 M 24,79 h 110 m -94,-39 78,78 m 0,-78 -78,78"
+             id="path70-0" />
+        </g>
+        <circle
+           cx="79"
+           cy="79"
+           r="38"
+           fill="#d9dedd"
+           stroke="#42b89b"
+           stroke-width="10"
+           id="circle71-9"
+           style="display:inline;stroke:none" />
+      </g>
+      <g
+         id="use33-8"
+         transform="rotate(-90,256.80705,-75.735996)"
+         inkscape:label="socket">
+        <rect
+           width="124.17351"
+           height="109.79903"
+           rx="7.0097947"
+           fill="#1c2224"
+           stroke="#687073"
+           stroke-width="4.8265"
+           id="rect68-0"
+           x="-0.086752452"
+           y="-0.086752452" />
+        <path
+           d="m 14.337618,18.632503 h 97.344502 l -0.0867,49.015321 -18.086084,24.01478 H 35.322095 L 14.337618,67.003629 Z"
+           fill="#080b0c"
+           id="path68-3"
+           sodipodi:nodetypes="ccccccc" />
+        <rect
+           x="58.543053"
+           y="72"
+           width="7.5580916"
+           height="15"
+           rx="1.619591"
+           fill="#596164"
+           id="rect69-8"
+           style="fill:#666666;stroke-width:0.734755" />
+        <rect
+           x="80.159248"
+           y="43.696579"
+           width="7.5580916"
+           height="15"
+           rx="1.619591"
+           fill="#596164"
+           id="rect69-8-0"
+           style="fill:#666666;stroke-width:0.734755" />
+        <rect
+           x="37.642654"
+           y="43.374485"
+           width="7.5580916"
+           height="15"
+           rx="1.619591"
+           fill="#596164"
+           id="rect69-8-3"
+           style="fill:#666666;stroke-width:0.734755" />
+      </g>
+      <path
+         d="m 423.74727,70.442382 c 18.06132,-49.93054 181.16248,-70.22815844 92.11788,79.625048 -12.94762,33.4943 -2.82055,53.96628 50.47146,61.73029"
+         fill="none"
+         stroke="#22282a"
+         stroke-width="18"
+         stroke-linecap="round"
+         id="path33-1-9"
+         sodipodi:nodetypes="ccc"
+         style="stroke:#1c2224;stroke-opacity:1" />
+      <path
+         d="M 511.35581,68.258297 V 207.2583"
+         stroke="#287bad"
+         stroke-width="24"
+         stroke-linecap="round"
+         id="path34-1-0" />
+      <rect
+         x="492.52438"
+         y="109.25829"
+         width="50.240993"
+         height="18"
+         rx="7.1772852"
+         fill="#153a51"
+         id="rect34-5"
+         style="display:inline;stroke-width:1.33953" />
+      <circle
+         cx="24"
+         cy="55"
+         r="7"
+         fill="#42b89b"
+         id="circle34-1"
+         inkscape:label="power-supply-02-status-icon"
+         style="fill:#545454;fill-opacity:1" />
+      <g
+         transform="translate(25.576763,228.89107)"
+         id="g36-3"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle36-0"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path36-1" />
+      </g>
+      <g
+         transform="translate(568.79976,67.737547)"
+         id="g37-9"
+         inkscape:label="screw">
+        <circle
+           r="10"
+           fill="#858c8f"
+           stroke="#555d60"
+           stroke-width="2"
+           id="circle37-9"
+           cx="0"
+           cy="0" />
+        <path
+           d="M -5,-5 5,5 M 5,-5 -5,5"
+           stroke="#d7dadb"
+           stroke-width="2"
+           id="path37-2" />
+      </g>
+    </g>
+  </g>
+</svg>
